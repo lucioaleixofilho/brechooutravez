@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nome": "Vestido Floral Anos 70",
+    "preco": 85,
+    "categoria": "roupas",
+    "foto": "assets/images/galeria/galeria-1.jpg",
+    "destaque": true
+  },
+  {
+    "id": 2,
+    "nome": "Bolsa de Couro Caramelo",
+    "preco": 120,
+    "categoria": "bolsas",
+    "foto": "assets/images/galeria/galeria-2.jpg",
+    "destaque": true
+  },
+  {
+    "id": 3,
+    "nome": "Scarpin Nude Clássico",
+    "preco": 65,
+    "categoria": "sapatos",
+    "foto": "assets/images/galeria/galeria-3.jpg",
+    "destaque": false
+  },
+  {
+    "id": 4,
+    "nome": "Blusa de Seda Estampada",
+    "preco": 55,
+    "categoria": "roupas",
+    "foto": "assets/images/galeria/galeria-4.jpg",
+    "destaque": false
+  },
+  {
+    "id": 5,
+    "nome": "Blazer Xadrez Alfaiataria",
+    "preco": 110,
+    "categoria": "roupas",
+    "foto": "assets/images/galeria/galeria-5.jpg",
+    "destaque": true
+  },
+  {
+    "id": 6,
+    "nome": "Kit Acessórios Vintage",
+    "preco": 40,
+    "categoria": "acessorios",
+    "foto": "assets/images/galeria/galeria-6.jpg",
+    "destaque": false
+  }
+]
