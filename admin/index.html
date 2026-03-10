@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin — Brechó Outra Vez</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #F5F5F3;
+      color: #1A1A1A;
+      min-height: 100vh;
+    }
+
+    .page { max-width: 880px; margin: 0 auto; padding: 40px 24px 80px; }
+
+    h1 { font-size: 20px; font-weight: 600; margin-bottom: 6px; }
+    .subtitle { font-size: 13px; color: #888; margin-bottom: 32px; }
+
+    label { display: block; font-size: 12px; font-weight: 500; color: #555; margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #E0DDDA;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: inherit;
+      background: #fff;
+      color: #1A1A1A;
+      margin-bottom: 14px;
+      transition: border-color 0.2s;
+    }
+    input:focus, select:focus { outline: none; border-color: #C4161C; }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      font-family: inherit;
+      border-radius: 4px;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: all 0.2s;
+    }
+    .btn-red { background: #C4161C; color: #fff; border-color: #C4161C; }
+    .btn-red:hover { background: #a51217; }
+    .btn-ghost { background: transparent; color: #C4161C; border-color: #C4161C; }
+    .btn-ghost:hover { background: #C4161C; color: #fff; }
+    .btn-danger { background: #ff4444; color: #fff; border-color: #ff4444; font-size: 12px; padding: 6px 12px; }
+    .btn-danger:hover { background: #dd2222; }
+
+    /* Login */
+    .login-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .login-box {
+      background: #fff;
+      border: 1px solid #E0DDDA;
+      border-radius: 6px;
+      padding: 40px;
+      width: 100%;
+      max-width: 360px;
+    }
+    .login-box h1 { margin-bottom: 24px; }
+    .login-error { font-size: 13px; color: #C4161C; margin-top: -8px; margin-bottom: 12px; }
+
+    /* Admin sections */
+    .section-card {
+      background: #fff;
+      border: 1px solid #E0DDDA;
+      border-radius: 6px;
+      padding: 28px;
+      margin-bottom: 24px;
+    }
+    .section-card h2 { font-size: 15px; font-weight: 600; margin-bottom: 20px; }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 16px;
+    }
+
+    /* Mensagem de status */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      padding: 12px 20px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+      z-index: 999;
+      opacity: 0;
+      transform: translateY(8px);
+      transition: opacity 0.25s, transform 0.25s;
+      pointer-events: none;
+    }
+    .toast.show { opacity: 1; transform: translateY(0); }
+    .toast.sucesso { background: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+    .toast.erro    { background: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+
+    /* Lista de peças */
+    .pecas-lista { display: flex; flex-direction: column; gap: 0; }
+    .peca-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px solid #F0EDEA;
+    }
+    .peca-row:first-child { border-top: 1px solid #F0EDEA; }
+    .peca-row img {
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+      border-radius: 4px;
+      background: #F0EDEA;
+      flex-shrink: 0;
+    }
+    .peca-row-info { flex: 1; min-width: 0; }
+    .peca-row-info strong { display: block; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .peca-row-info span { font-size: 12px; color: #888; }
+
+    .instrucoes {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.6;
+      background: #FAF9F7;
+      border: 1px solid #E8E4E0;
+      border-radius: 4px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .instrucoes code {
+      background: #eee;
+      padding: 1px 5px;
+      border-radius: 3px;
+      font-size: 12px;
+    }
+
+    [hidden] { display: none !important; }
+
+    @media (max-width: 500px) {
+      .form-row { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── LOGIN ── -->
+  <div class="login-wrap" id="tela-login">
+    <div class="login-box">
+      <h1>🔐 Admin</h1>
+      <p style="font-size:13px;color:#888;margin-bottom:24px;">Brechó Outra Vez</p>
+      <label for="campo-senha">Senha</label>
+      <input type="password" id="campo-senha" placeholder="Digite a senha de admin" autocomplete="current-password" />
+      <p class="login-error" id="erro-login" hidden>Senha incorreta.</p>
+      <button class="btn btn-red" onclick="fazerLogin()" style="width:100%">Entrar</button>
+    </div>
+  </div>
+
+  <!-- ── PAINEL ADMIN ── -->
+  <div class="page" id="tela-admin" hidden>
+    <h1>Gerenciar Peças</h1>
+    <p class="subtitle">Brechó Outra Vez — Adicione, visualize ou remova peças do catálogo.</p>
+
+    <!-- Adicionar peça -->
+    <div class="section-card">
+      <h2>+ Adicionar nova peça</h2>
+      <div class="form-row">
+        <div>
+          <label for="f-nome">Nome da peça *</label>
+          <input type="text" id="f-nome" placeholder="Ex: Blazer Xadrez Anos 80" />
+        </div>
+        <div>
+          <label for="f-preco">Preço (R$) *</label>
+          <input type="number" id="f-preco" placeholder="89" min="1" step="1" />
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label for="f-categoria">Categoria *</label>
+          <select id="f-categoria">
+            <option value="roupas">Roupas</option>
+            <option value="bolsas">Bolsas</option>
+            <option value="sapatos">Sapatos</option>
+            <option value="acessorios">Acessórios</option>
+          </select>
+        </div>
+        <div>
+          <label for="f-foto">Caminho da foto *</label>
+          <input type="text" id="f-foto" placeholder="assets/images/galeria/nome-da-peca.jpg" />
+        </div>
+      </div>
+      <button class="btn btn-red" onclick="adicionarPeca()">Adicionar ao catálogo</button>
+    </div>
+
+    <!-- Lista de peças -->
+    <div class="section-card">
+      <h2>Peças no catálogo (<span id="total-pecas">0</span>)</h2>
+      <div class="pecas-lista" id="lista-pecas">
+        <p style="color:#888;font-size:14px;padding:12px 0">Carregando...</p>
+      </div>
+    </div>
+
+    <!-- Salvar / Exportar -->
+    <div class="section-card">
+      <h2>Salvar alterações</h2>
+      <div class="instrucoes">
+        <p>Após adicionar ou remover peças, clique em <strong>"Baixar pecas.json"</strong> e substitua o arquivo
+        <code>data/pecas.json</code> na pasta do projeto. O site vai usar o novo arquivo automaticamente.</p>
+      </div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="btn btn-red" onclick="baixarJSON()">⬇ Baixar pecas.json</button>
+        <button class="btn btn-ghost" onclick="sair()">Sair</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // ── CONFIGURAÇÃO ──────────────────────────────────────
+    // IMPORTANTE: Altere a senha antes de publicar o site!
+    const SENHA_ADMIN = 'brecho2025';
+
+    let pecas = [];
+
+    // ── LOGIN ──────────────────────────────────────────────
+    function fazerLogin() {
+      const senha = document.getElementById('campo-senha').value;
+      const erro  = document.getElementById('erro-login');
+      if (senha === SENHA_ADMIN) {
+        document.getElementById('tela-login').hidden = true;
+        document.getElementById('tela-admin').hidden = false;
+        carregarPecas();
+      } else {
+        erro.hidden = false;
+        document.getElementById('campo-senha').focus();
+      }
+    }
+
+    document.getElementById('campo-senha').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') fazerLogin();
+    });
+
+    function sair() {
+      document.getElementById('tela-admin').hidden = true;
+      document.getElementById('tela-login').hidden = false;
+      document.getElementById('campo-senha').value = '';
+    }
+
+    // ── CARREGAR PEÇAS ─────────────────────────────────────
+    async function carregarPecas() {
+      try {
+        const r = await fetch('../data/pecas.json?t=' + Date.now());
+        pecas = await r.json();
+      } catch {
+        pecas = [];
+        mostrarToast('Não foi possível carregar o catálogo atual. Começando vazio.', 'erro');
+      }
+      renderizarLista();
+    }
+
+    // ── RENDERIZAR LISTA ───────────────────────────────────
+    function renderizarLista() {
+      const lista = document.getElementById('lista-pecas');
+      document.getElementById('total-pecas').textContent = pecas.length;
+
+      if (pecas.length === 0) {
+        lista.innerHTML = '<p style="color:#888;font-size:14px;padding:12px 0">Nenhuma peça cadastrada.</p>';
+        return;
+      }
+
+      lista.innerHTML = '';
+      pecas.forEach((p, i) => {
+        const row = document.createElement('div');
+        row.className = 'peca-row';
+        row.innerHTML = `
+          <img
+            src="../${p.foto}"
+            alt="${p.nome}"
+            onerror="this.removeAttribute('src')"
+          />
+          <div class="peca-row-info">
+            <strong>${p.nome}</strong>
+            <span>${categoriaNome(p.categoria)} — R$ ${p.preco}</span>
+          </div>
+          <button class="btn btn-danger" data-index="${i}">Remover</button>
+        `;
+        row.querySelector('.btn-danger').addEventListener('click', () => removerPeca(i));
+        lista.appendChild(row);
+      });
+    }
+
+    function categoriaNome(cat) {
+      return { roupas:'Roupas', bolsas:'Bolsas', sapatos:'Sapatos', acessorios:'Acessórios' }[cat] || cat;
+    }
+
+    // ── ADICIONAR ─────────────────────────────────────────
+    function adicionarPeca() {
+      const nome      = document.getElementById('f-nome').value.trim();
+      const preco     = Number(document.getElementById('f-preco').value);
+      const categoria = document.getElementById('f-categoria').value;
+      const foto      = document.getElementById('f-foto').value.trim();
+
+      if (!nome)  { mostrarToast('Preencha o nome da peça.', 'erro'); return; }
+      if (!preco) { mostrarToast('Informe o preço.', 'erro'); return; }
+      if (!foto)  { mostrarToast('Informe o caminho da foto.', 'erro'); return; }
+
+      const novoId = pecas.length > 0 ? Math.max(...pecas.map(p => p.id)) + 1 : 1;
+      pecas.push({ id: novoId, nome, preco, categoria, foto, destaque: false });
+      renderizarLista();
+      mostrarToast(`"${nome}" adicionada! Baixe o JSON para salvar.`, 'sucesso');
+
+      // Limpar formulário
+      document.getElementById('f-nome').value  = '';
+      document.getElementById('f-preco').value = '';
+      document.getElementById('f-foto').value  = '';
+      document.getElementById('f-nome').focus();
+    }
+
+    // ── REMOVER ───────────────────────────────────────────
+    function removerPeca(index) {
+      const nome = pecas[index]?.nome || 'peça';
+      if (!confirm(`Remover "${nome}" do catálogo?`)) return;
+      pecas.splice(index, 1);
+      renderizarLista();
+      mostrarToast(`"${nome}" removida. Baixe o JSON para salvar.`, 'sucesso');
+    }
+
+    // ── BAIXAR JSON ───────────────────────────────────────
+    function baixarJSON() {
+      const json = JSON.stringify(pecas, null, 2);
+      const blob = new Blob([json], { type: 'application/json' });
+      const url  = URL.createObjectURL(blob);
+      const a    = document.createElement('a');
+      a.href     = url;
+      a.download = 'pecas.json';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      mostrarToast('pecas.json baixado! Substitua o arquivo em data/pecas.json.', 'sucesso');
+    }
+
+    // ── TOAST ─────────────────────────────────────────────
+    let toastTimer = null;
+    function mostrarToast(msg, tipo) {
+      const t = document.getElementById('toast');
+      t.textContent = msg;
+      t.className = `toast ${tipo} show`;
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => { t.classList.remove('show'); }, 3500);
+    }
+  </script>
+</body>
+</html>
