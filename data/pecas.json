@@ -2,7 +2,6 @@
   {
     "id": 1,
     "nome": "Calça Pantalona Morena Rosa",
-    "preco": 76,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-01.jpg",
     "destaque": true,
@@ -17,7 +16,6 @@
   {
     "id": 2,
     "nome": "Cinto de Couro Colcci",
-    "preco": 64,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-01.jpg",
     "destaque": true,
@@ -32,7 +30,6 @@
   {
     "id": 3,
     "nome": "Brincos Vintage Hering (Select)",
-    "preco": 88,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-02.jpg",
     "destaque": true,
@@ -47,7 +44,6 @@
   {
     "id": 4,
     "nome": "Vestido Midi John John",
-    "preco": 257,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-02.jpg",
     "destaque": true,
@@ -62,7 +58,6 @@
   {
     "id": 5,
     "nome": "Blazer de Alfaiataria Zara",
-    "preco": 265,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-03.jpg",
     "destaque": true,
@@ -77,7 +72,6 @@
   {
     "id": 6,
     "nome": "Saia Plissada Hering (Select)",
-    "preco": 214,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-04.jpg",
     "destaque": true,
@@ -92,7 +86,6 @@
   {
     "id": 7,
     "nome": "Bolsa de Ombro Cantão",
-    "preco": 71,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-bolsa-01.jpg",
     "destaque": false,
@@ -107,7 +100,6 @@
   {
     "id": 8,
     "nome": "Bota de Cano Curto Lança Perfume",
-    "preco": 220,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-01.jpg",
     "destaque": false,
@@ -122,7 +114,6 @@
   {
     "id": 9,
     "nome": "Cinto de Couro Lança Perfume",
-    "preco": 361,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-03.jpg",
     "destaque": false,
@@ -137,7 +128,6 @@
   {
     "id": 10,
     "nome": "Clutch Elegante Hering (Select)",
-    "preco": 71,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-bolsa-02.jpg",
     "destaque": false,
@@ -152,7 +142,6 @@
   {
     "id": 11,
     "nome": "Jaqueta Jeans Farm",
-    "preco": 335,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-05.jpg",
     "destaque": false,
@@ -167,7 +156,6 @@
   {
     "id": 12,
     "nome": "Blusa Gola Alta Farm",
-    "preco": 239,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-06.jpg",
     "destaque": false,
@@ -182,7 +170,6 @@
   {
     "id": 13,
     "nome": "Cinto de Couro Zara",
-    "preco": 133,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-04.jpg",
     "destaque": false,
@@ -197,7 +184,6 @@
   {
     "id": 14,
     "nome": "Colar de Pérolas Bo.Bô",
-    "preco": 157,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-05.jpg",
     "destaque": false,
@@ -212,7 +198,6 @@
   {
     "id": 15,
     "nome": "Vestido Midi Arezzo",
-    "preco": 344,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-07.jpg",
     "destaque": false,
@@ -227,7 +212,6 @@
   {
     "id": 16,
     "nome": "Scarpin Clássico Bo.Bô",
-    "preco": 177,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-02.jpg",
     "destaque": false,
@@ -242,7 +226,6 @@
   {
     "id": 17,
     "nome": "Colar de Pérolas Hering (Select)",
-    "preco": 173,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-06.jpg",
     "destaque": false,
@@ -257,7 +240,6 @@
   {
     "id": 18,
     "nome": "Vestido Midi Morena Rosa",
-    "preco": 371,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-08.jpg",
     "destaque": false,
@@ -272,7 +254,6 @@
   {
     "id": 19,
     "nome": "Vestido Midi Lança Perfume",
-    "preco": 378,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-09.jpg",
     "destaque": false,
@@ -287,7 +268,6 @@
   {
     "id": 20,
     "nome": "Brincos Vintage Morena Rosa",
-    "preco": 151,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-07.jpg",
     "destaque": false,
@@ -302,7 +282,6 @@
   {
     "id": 21,
     "nome": "Blusa Gola Alta Zara",
-    "preco": 241,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-10.jpg",
     "destaque": false,
@@ -317,7 +296,6 @@
   {
     "id": 22,
     "nome": "Camisa de Seda Zara",
-    "preco": 148,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-01.jpg",
     "destaque": false,
@@ -332,7 +310,6 @@
   {
     "id": 23,
     "nome": "Clutch Elegante Animale",
-    "preco": 77,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-bolsa-03.jpg",
     "destaque": false,
@@ -347,7 +324,6 @@
   {
     "id": 24,
     "nome": "Saia Plissada Arezzo",
-    "preco": 287,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-02.jpg",
     "destaque": false,
@@ -362,7 +338,6 @@
   {
     "id": 25,
     "nome": "Scarpin Clássico Maria Filó",
-    "preco": 278,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-03.jpg",
     "destaque": false,
@@ -377,7 +352,6 @@
   {
     "id": 26,
     "nome": "Colar de Pérolas Morena Rosa",
-    "preco": 342,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-08.jpg",
     "destaque": false,
@@ -392,7 +366,6 @@
   {
     "id": 27,
     "nome": "Bota de Cano Curto Bo.Bô",
-    "preco": 198,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-04.jpg",
     "destaque": false,
@@ -407,7 +380,6 @@
   {
     "id": 28,
     "nome": "Colar de Pérolas Schultz",
-    "preco": 115,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-09.jpg",
     "destaque": false,
@@ -422,7 +394,6 @@
   {
     "id": 29,
     "nome": "Clutch Elegante John John",
-    "preco": 336,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-bolsa-04.jpg",
     "destaque": false,
@@ -437,7 +408,6 @@
   {
     "id": 30,
     "nome": "Scarpin Clássico Animale",
-    "preco": 150,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-05.jpg",
     "destaque": false,
@@ -452,7 +422,6 @@
   {
     "id": 31,
     "nome": "Jaqueta Jeans Schultz",
-    "preco": 178,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-03.jpg",
     "destaque": false,
@@ -467,7 +436,6 @@
   {
     "id": 32,
     "nome": "Blusa Gola Alta Osklen",
-    "preco": 350,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-04.jpg",
     "destaque": false,
@@ -482,7 +450,6 @@
   {
     "id": 33,
     "nome": "Jaqueta Jeans Farm",
-    "preco": 267,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-05.jpg",
     "destaque": false,
@@ -497,7 +464,6 @@
   {
     "id": 34,
     "nome": "Jaqueta Jeans Morena Rosa",
-    "preco": 230,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-06.jpg",
     "destaque": false,
@@ -512,7 +478,6 @@
   {
     "id": 35,
     "nome": "Saia Plissada Morena Rosa",
-    "preco": 54,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-07.jpg",
     "destaque": false,
@@ -527,7 +492,6 @@
   {
     "id": 36,
     "nome": "Vestido Midi Colcci",
-    "preco": 104,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-08.jpg",
     "destaque": false,
@@ -542,7 +506,6 @@
   {
     "id": 37,
     "nome": "Bolsa de Ombro Lança Perfume",
-    "preco": 64,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-bolsa-05.jpg",
     "destaque": false,
@@ -557,7 +520,6 @@
   {
     "id": 38,
     "nome": "Saia Plissada Schultz",
-    "preco": 294,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-09.jpg",
     "destaque": false,
@@ -572,7 +534,6 @@
   {
     "id": 39,
     "nome": "Jaqueta Jeans John John",
-    "preco": 295,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-10.jpg",
     "destaque": false,
@@ -587,7 +548,6 @@
   {
     "id": 40,
     "nome": "Saia Plissada Morena Rosa",
-    "preco": 73,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-01.jpg",
     "destaque": false,
@@ -602,7 +562,6 @@
   {
     "id": 41,
     "nome": "Calça Pantalona Maria Filó",
-    "preco": 74,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-02.jpg",
     "destaque": false,
@@ -617,7 +576,6 @@
   {
     "id": 42,
     "nome": "Brincos Vintage Arezzo",
-    "preco": 253,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-acess-10.jpg",
     "destaque": false,
@@ -632,7 +590,6 @@
   {
     "id": 43,
     "nome": "Blusa Gola Alta Maria Filó",
-    "preco": 69,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-03.jpg",
     "destaque": false,
@@ -647,7 +604,6 @@
   {
     "id": 44,
     "nome": "Calça Pantalona Zara",
-    "preco": 338,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-04.jpg",
     "destaque": false,
@@ -662,7 +618,6 @@
   {
     "id": 45,
     "nome": "Jaqueta Jeans Le Lis Blanc",
-    "preco": 155,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-05.jpg",
     "destaque": false,
@@ -677,7 +632,6 @@
   {
     "id": 46,
     "nome": "Jaqueta Jeans Hering (Select)",
-    "preco": 211,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-06.jpg",
     "destaque": false,
@@ -692,7 +646,6 @@
   {
     "id": 47,
     "nome": "Jaqueta Jeans Zara",
-    "preco": 75,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-07.jpg",
     "destaque": false,
@@ -707,7 +660,6 @@
   {
     "id": 48,
     "nome": "Jaqueta Jeans Farm",
-    "preco": 132,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-08.jpg",
     "destaque": false,
@@ -722,7 +674,6 @@
   {
     "id": 49,
     "nome": "Bota de Cano Curto Animale",
-    "preco": 250,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-sapato-01.jpg",
     "destaque": false,
@@ -737,7 +688,6 @@
   {
     "id": 50,
     "nome": "Blazer de Alfaiataria Farm",
-    "preco": 284,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-roupa-09.jpg",
     "destaque": false,

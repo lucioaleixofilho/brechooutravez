@@ -24,19 +24,32 @@ const FORMATADOR_BRL = new Intl.NumberFormat('pt-BR', {
   maximumFractionDigits: 0
 });
 
+// Embaralha um array (Fisher-Yates)
+function embaralharArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[arr[j]]] = [arr[arr[j]], arr[i]];
+  }
+}
+
 // Carrega o JSON de peças (API principal com fallback para JSON local)
 async function carregarPecas() {
   try {
     const resp = await fetch(PRODUTOS_API);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-    return await resp.json();
+    let data = await resp.json();
+    data = data.filter(p => p.ativo !== false);
+    embaralharArray(data);
+    return data.slice(0, 15);
   } catch (err) {
     console.warn('[galeria] API indisponível, usando fallback local:', err.message);
     try {
       const resp = await fetch(PRODUTOS_FALLBACK);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-      const data = await resp.json();
-      return data.filter(p => p.ativo !== false);
+      let data = await resp.json();
+      data = data.filter(p => p.ativo !== false);
+      embaralharArray(data);
+      return data.slice(0, 15);
     } catch (fallbackErr) {
       console.warn('[galeria] Fallback também falhou:', fallbackErr.message);
       return [];
@@ -51,9 +64,7 @@ function criarCardPeca(peca) {
   article.dataset.categoria = peca.categoria;
   article.setAttribute('role', 'button');
   article.setAttribute('tabindex', '0');
-  article.setAttribute('aria-label', `${peca.nome} — ${FORMATADOR_BRL.format(peca.preco)}`);
-
-  const precoFormatado = FORMATADOR_BRL.format(peca.preco);
+  article.setAttribute('aria-label', `${peca.nome}`);
   const categoriaLabel = {
     roupas: 'Roupas',
     bolsas: 'Bolsas',
@@ -72,7 +83,6 @@ function criarCardPeca(peca) {
     <div class="peca-info">
       <span class="peca-categoria">${categoriaLabel}</span>
       <h3 class="peca-nome">${peca.nome}</h3>
-      <p class="peca-preco">${precoFormatado}</p>
     </div>
   `;
 

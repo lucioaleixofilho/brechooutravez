@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Menu hamburger ───────────────────────────────────
   const toggle = document.querySelector('.menu-toggle');
-  const nav    = document.getElementById('main-nav');
+  const nav = document.getElementById('main-nav');
 
   if (toggle && nav) {
     toggle.addEventListener('click', () => {
@@ -43,5 +43,30 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll(); // estado inicial
   }
+
+  // ── Editorial Parallax & Reveal ──────────────────────
+  const heroImg = document.querySelector('.hero-image');
+  if (heroImg) {
+    window.addEventListener('scroll', () => {
+      const scrolled = window.scrollY;
+      if (scrolled < window.innerHeight) {
+        heroImg.style.transform = `translateY(${scrolled * 0.3}px) scale(1.05)`;
+      }
+    }, { passive: true });
+  }
+
+  const revealElements = document.querySelectorAll('.sobre-grid, .galeria .container > *, .cards-grid .card, .localizacao-grid');
+  revealElements.forEach(el => el.classList.add('reveal'));
+
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { rootMargin: '0px 0px -50px 0px' });
+
+  revealElements.forEach(el => revealObserver.observe(el));
 
 });
