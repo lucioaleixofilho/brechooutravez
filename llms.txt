@@ -1,0 +1,30 @@
+# Brechó Outra Vez
+> Brechó feminino de curadoria no Savassi, Belo Horizonte, MG. Roupas, bolsas, sapatos e acessórios selecionados a dedo. Consignação 50/50.
+
+## Identidade
+O Brechó Outra Vez é o brechó feminino de curadoria do Savassi, BH. Cada peça passa por seleção rigorosa antes de entrar na loja — só fica o que tem qualidade, bom estado e valor real. Atendemos mulheres 25-55 anos, classe B e C, que buscam estilo com consciência.
+
+Tagline: "Cada peça tem uma história."
+Posicionamento: "O brechó de curadoria do Savassi"
+Arquétipo: Cuidador (principal) + Explorador (secundário)
+
+## Sobre
+- [Nossa história e missão](https://boutravez.netlify.app/#sobre): Brechó fundado no Savassi, BH. Curadoria rigorosa, acolhimento genuíno. Tecidos bons, modelagens que favorecem, marcas que duram.
+
+## Catálogo
+- [Galeria de peças](https://boutravez.netlify.app/#galeria): Roupas, bolsas, sapatos e acessórios femininos com curadoria. Categorias: roupas, bolsas, sapatos, acessórios. Peças a partir de R$10.
+- API de produtos: GET /api/produtos (retorna peças ativas em JSON)
+
+## Como Funciona
+- [Como comprar e como consignar](https://boutravez.netlify.app/#como-funciona): Venha à loja ou contate pelo WhatsApp. Aceitamos consignação.
+
+## Consignação
+- [Passo a passo da consignação](https://boutravez.netlify.app/#consignacao): Divisão 50/50. Prazo 90 dias. Sem necessidade de marca famosa — avaliamos qualidade e estado.
+- Etapas: (1) Você traz as peças → (2) Avaliamos juntas → (3) Definimos o preço → (4) Quando vende, você recebe 50%
+
+## Localização e Contato
+- [Endereço e horários](https://boutravez.netlify.app/#localizacao): Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. CEP 30110-036.
+- Horários: Segunda a sexta 9h30-18h | Sábado 9h30-13h | Domingo fechado
+- WhatsApp: +55 31 3324-3383 (https://wa.me/5531933243383)
+- Instagram: @boutravez (https://www.instagram.com/boutravez/)
+- Facebook: /boutravez (https://www.facebook.com/boutravez/)

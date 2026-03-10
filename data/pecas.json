@@ -5,7 +5,15 @@
     "preco": 85,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-1.jpg",
-    "destaque": true
+    "destaque": true,
+    "tamanho": "M",
+    "cor": "floral multicolorido",
+    "material": "viscose",
+    "condicao": "impecável",
+    "consignado": false,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   },
   {
     "id": 2,
@@ -13,7 +21,15 @@
     "preco": 120,
     "categoria": "bolsas",
     "foto": "assets/images/galeria/galeria-2.jpg",
-    "destaque": true
+    "destaque": true,
+    "tamanho": "único",
+    "cor": "caramelo",
+    "material": "couro legítimo",
+    "condicao": "impecável",
+    "consignado": false,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   },
   {
     "id": 3,
@@ -21,7 +37,15 @@
     "preco": 65,
     "categoria": "sapatos",
     "foto": "assets/images/galeria/galeria-3.jpg",
-    "destaque": false
+    "destaque": false,
+    "tamanho": "36",
+    "cor": "nude",
+    "material": "couro",
+    "condicao": "leve uso",
+    "consignado": true,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   },
   {
     "id": 4,
@@ -29,7 +53,15 @@
     "preco": 55,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-4.jpg",
-    "destaque": false
+    "destaque": false,
+    "tamanho": "P",
+    "cor": "estampado",
+    "material": "seda",
+    "condicao": "impecável",
+    "consignado": true,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   },
   {
     "id": 5,
@@ -37,7 +69,15 @@
     "preco": 110,
     "categoria": "roupas",
     "foto": "assets/images/galeria/galeria-5.jpg",
-    "destaque": true
+    "destaque": true,
+    "tamanho": "M",
+    "cor": "xadrez preto e branco",
+    "material": "lã",
+    "condicao": "impecável",
+    "consignado": false,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   },
   {
     "id": 6,
@@ -45,6 +85,14 @@
     "preco": 40,
     "categoria": "acessorios",
     "foto": "assets/images/galeria/galeria-6.jpg",
-    "destaque": false
+    "destaque": false,
+    "tamanho": "único",
+    "cor": "dourado",
+    "material": "metal",
+    "condicao": "vintage",
+    "consignado": false,
+    "ativo": true,
+    "fonte": "local",
+    "criado_em": "2026-03-10"
   }
 ]

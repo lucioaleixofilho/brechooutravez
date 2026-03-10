@@ -1,9 +1,21 @@
 /**
- * galeria.js — Carrega data/pecas.json e renderiza o grid com filtros e lightbox.
+ * galeria.js — Carrega peças e renderiza o grid com filtros e lightbox.
  * Brechó Outra Vez
+ *
+ * Fonte de dados (prioridade):
+ *  1. window.MINHA_LOJITA_API → `${url}/produtos` (quando Minha Lojita estiver pronto)
+ *  2. /api/produtos            → Netlify Function (fallback principal)
+ *  3. data/pecas.json          → JSON local (fallback final)
  */
 
 'use strict';
+
+// Configurar window.MINHA_LOJITA_API antes de carregar este script para usar a API externa
+const PRODUTOS_API = window.MINHA_LOJITA_API
+  ? `${window.MINHA_LOJITA_API}/produtos`
+  : '/api/produtos';
+
+const PRODUTOS_FALLBACK = 'data/pecas.json';
 
 const FORMATADOR_BRL = new Intl.NumberFormat('pt-BR', {
   style: 'currency',
@@ -12,15 +24,23 @@ const FORMATADOR_BRL = new Intl.NumberFormat('pt-BR', {
   maximumFractionDigits: 0
 });
 
-// Carrega o JSON de peças
+// Carrega o JSON de peças (API principal com fallback para JSON local)
 async function carregarPecas() {
   try {
-    const resp = await fetch('data/pecas.json');
+    const resp = await fetch(PRODUTOS_API);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     return await resp.json();
   } catch (err) {
-    console.warn('[galeria] Falha ao carregar peças:', err.message);
-    return [];
+    console.warn('[galeria] API indisponível, usando fallback local:', err.message);
+    try {
+      const resp = await fetch(PRODUTOS_FALLBACK);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      return data.filter(p => p.ativo !== false);
+    } catch (fallbackErr) {
+      console.warn('[galeria] Fallback também falhou:', fallbackErr.message);
+      return [];
+    }
   }
 }
 
