@@ -1,21 +1,16 @@
 /**
- * gmb-post.js — Posta artigo do blog no Google Meu Negócio (Google Business Profile)
+ * gmb-post.js — Posta artigo do blog no Google Meu Negócio
  *
- * Requer secrets no GitHub Actions:
- *   GMB_ACCOUNT_ID              → ex: accounts/1234567890
- *   GMB_LOCATION_ID             → ex: locations/0987654321
- *   GOOGLE_SERVICE_ACCOUNT_JSON → JSON da service account com permissão Business Profile API
- *   SITE_URL                    → URL base do site (ex: https://brechooutravez.com.br)
- *
- * Para obter GMB_ACCOUNT_ID e GMB_LOCATION_ID:
- *   1. Acesse console.cloud.google.com → APIs → Business Profile API
- *   2. GET https://mybusinessaccountmanagement.googleapis.com/v1/accounts
- *   3. GET https://mybusinessbusinessinformation.googleapis.com/v1/{account}/locations
+ * Secrets necessários no GitHub Actions:
+ *   GOOGLE_CLIENT_ID
+ *   GOOGLE_CLIENT_SECRET
+ *   GOOGLE_REFRESH_TOKEN
+ *   SITE_URL (ex: https://brechooutravez.com.br)
  */
 
-const { google } = require('googleapis');
+const https = require('https');
 
-// ── Dados dos artigos ──────────────────────────────────────────────────────────
+// ── Artigos ────────────────────────────────────────────────────────────────────
 const ARTICLES = [
   { n: 1,  date: '2025-09-14', title: 'Por que investir em moda circular e roupas usadas hoje?',                   slug: 'artigo-1'  },
   { n: 2,  date: '2025-09-28', title: 'Como identificar tecidos premium no garimpo em brechós',                    slug: 'artigo-2'  },
@@ -54,94 +49,140 @@ const ARTICLES = [
   { n: 35, date: '2027-02-14', title: 'Savassi BH: o bairro da moda consciente em Belo Horizonte',                 slug: 'artigo-35' },
 ];
 
-// ── Encontrar artigo para publicar hoje ────────────────────────────────────────
-function findArticleToPost() {
+// ── Helpers HTTP ───────────────────────────────────────────────────────────────
+function httpsRequest(options, body) {
+  return new Promise((resolve, reject) => {
+    const req = https.request(options, (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        try { resolve({ status: res.statusCode, body: JSON.parse(data) }); }
+        catch { resolve({ status: res.statusCode, body: data }); }
+      });
+    });
+    req.on('error', reject);
+    if (body) req.write(body);
+    req.end();
+  });
+}
+
+// ── OAuth: obter access token via refresh token ────────────────────────────────
+async function getAccessToken() {
+  const { GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN } = process.env;
+  if (!GOOGLE_CLIENT_ID || !GOOGLE_CLIENT_SECRET || !GOOGLE_REFRESH_TOKEN) {
+    throw new Error('Secrets GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET e GOOGLE_REFRESH_TOKEN não configurados.');
+  }
+
+  const body = new URLSearchParams({
+    client_id:     GOOGLE_CLIENT_ID,
+    client_secret: GOOGLE_CLIENT_SECRET,
+    refresh_token: GOOGLE_REFRESH_TOKEN,
+    grant_type:    'refresh_token',
+  }).toString();
+
+  const res = await httpsRequest({
+    hostname: 'oauth2.googleapis.com',
+    path: '/token',
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'Content-Length': Buffer.byteLength(body) },
+  }, body);
+
+  if (!res.body.access_token) throw new Error('Falha ao obter access_token: ' + JSON.stringify(res.body));
+  return res.body.access_token;
+}
+
+// ── GMB: buscar account e location automaticamente ────────────────────────────
+async function getGmbIds(token) {
+  // Busca accounts
+  const accRes = await httpsRequest({
+    hostname: 'mybusinessaccountmanagement.googleapis.com',
+    path: '/v1/accounts',
+    method: 'GET',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+
+  const accounts = accRes.body.accounts;
+  if (!accounts || accounts.length === 0) throw new Error('Nenhuma conta GMB encontrada para este usuário.');
+
+  const accountName = accounts[0].name;
+  console.log('Conta GMB:', accountName);
+
+  // Busca locations
+  const locRes = await httpsRequest({
+    hostname: 'mybusinessbusinessinformation.googleapis.com',
+    path: `/v1/${accountName}/locations?readMask=name,title`,
+    method: 'GET',
+    headers: { Authorization: `Bearer ${token}` },
+  });
+
+  const locations = locRes.body.locations;
+  if (!locations || locations.length === 0) throw new Error('Nenhuma localização GMB encontrada.');
+
+  const locationName = locations[0].name;
+  console.log('Localização GMB:', locationName, '|', locations[0].title);
+  return { accountName, locationName };
+}
+
+// ── Artigo a publicar ─────────────────────────────────────────────────────────
+function findArticle() {
   const forceN = parseInt(process.env.FORCE_ARTICLE || '');
   if (!isNaN(forceN)) {
     const art = ARTICLES.find(a => a.n === forceN);
-    if (art) { console.log(`[FORCE] Artigo ${forceN}: ${art.title}`); return art; }
+    if (art) { console.log(`[FORCE] Artigo ${forceN}`); return art; }
   }
 
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const window14 = new Date(today);
-  window14.setDate(window14.getDate() - 14);
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const window14 = new Date(today); window14.setDate(window14.getDate() - 14);
 
-  // Artigo cuja data cai na janela dos últimos 14 dias
   const candidate = ARTICLES.find(a => {
     const d = new Date(a.date);
     return d >= window14 && d <= today;
   });
 
   if (!candidate) {
-    console.log('Nenhum artigo para publicar nesta semana. Saindo sem ação.');
+    console.log('Nenhum artigo para publicar esta semana. Nenhuma ação necessária.');
     process.exit(0);
   }
   return candidate;
 }
 
 // ── Postar no GMB ─────────────────────────────────────────────────────────────
-async function postToGMB(article) {
-  const { GMB_ACCOUNT_ID, GMB_LOCATION_ID, GOOGLE_SERVICE_ACCOUNT_JSON, SITE_URL } = process.env;
+async function main() {
+  const article = findArticle();
+  const siteUrl = process.env.SITE_URL || 'https://brechooutravez.com.br';
+  const articleUrl = `${siteUrl}/blog/${article.slug}.html`;
 
-  if (!GMB_ACCOUNT_ID || !GMB_LOCATION_ID || !GOOGLE_SERVICE_ACCOUNT_JSON) {
-    console.warn('⚠️  Secrets do GMB não configurados. Pulando postagem no Google Meu Negócio.');
-    console.warn('   Configure GMB_ACCOUNT_ID, GMB_LOCATION_ID e GOOGLE_SERVICE_ACCOUNT_JSON nos secrets do repositório.');
-    return;
-  }
+  console.log(`📰 Publicando: [${article.date}] ${article.title}`);
+  console.log(`🔗 URL: ${articleUrl}`);
 
-  const serviceAccount = JSON.parse(GOOGLE_SERVICE_ACCOUNT_JSON);
-  const auth = new google.auth.GoogleAuth({
-    credentials: serviceAccount,
-    scopes: ['https://www.googleapis.com/auth/business.manage'],
+  const token = await getAccessToken();
+  const { locationName } = await getGmbIds(token);
+
+  const postBody = JSON.stringify({
+    languageCode: 'pt-BR',
+    summary: `${article.title}\n\nNovo artigo no blog do Brechó Outra Vez — curadoria, moda circular e estilo no Savassi, BH.`,
+    callToAction: { actionType: 'LEARN_MORE', url: articleUrl },
+    topicType: 'STANDARD',
   });
 
-  const authClient = await auth.getClient();
-  const articleUrl = `${SITE_URL}/blog/${article.slug}.html`;
-
-  // Google Business Profile API v4 — localPosts
-  const endpoint = `https://mybusiness.googleapis.com/v4/${GMB_ACCOUNT_ID}/${GMB_LOCATION_ID}/localPosts`;
-  const token = await authClient.getAccessToken();
-
-  const body = {
-    languageCode: 'pt-BR',
-    summary: `${article.title}\n\nNovo artigo no blog do Brechó Outra Vez. Curadoria, moda circular e estilo no Savassi, BH.`,
-    callToAction: {
-      actionType: 'LEARN_MORE',
-      url: articleUrl,
-    },
-    topicType: 'STANDARD',
-  };
-
-  const resp = await fetch(endpoint, {
+  const endpoint = `/v4/${locationName}/localPosts`;
+  const res = await httpsRequest({
+    hostname: 'mybusiness.googleapis.com',
+    path: endpoint,
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${token.token}`,
+      Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
+      'Content-Length': Buffer.byteLength(postBody),
     },
-    body: JSON.stringify(body),
-  });
+  }, postBody);
 
-  const result = await resp.json();
-
-  if (!resp.ok) {
-    console.error('Erro ao postar no GMB:', JSON.stringify(result, null, 2));
+  if (res.status !== 200) {
+    console.error('❌ Erro ao postar:', JSON.stringify(res.body, null, 2));
     process.exit(1);
   }
 
-  console.log(`✅ Publicado no Google Meu Negócio: "${article.title}"`);
-  console.log(`   URL: ${articleUrl}`);
-  console.log(`   Post name: ${result.name}`);
+  console.log(`✅ Publicado com sucesso! Post: ${res.body.name}`);
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
-async function main() {
-  const article = findArticleToPost();
-  console.log(`📰 Artigo selecionado: [${article.date}] ${article.title}`);
-  await postToGMB(article);
-}
-
-main().catch(err => {
-  console.error('Erro fatal:', err);
-  process.exit(1);
-});
+main().catch(err => { console.error('Erro fatal:', err.message); process.exit(1); });
