@@ -61,10 +61,24 @@ articles_data = [
         <p>Existe uma aura romântica ao redor do termo “vintage”, e não é para menos. Na moda, classificar algo como vintage significa que aquela roupa tem história — muitas vezes, sobrevivendo a mais de 20 anos inteirinha. No entanto, achar, avaliar e comprar essas peças exige um olhar afiado e certas técnicas. Em Belo Horizonte, os apaixonados pela moda têm o Brechó Outra Vez como seu porto seguro, pois fazemos o filtro, mas ainda assim o garimpo da peça certa para usar todo dia é algo muito pessoal.</p>
         <p>O primeiro mito da roupa vintage: tamanho. As tabelas de modelagens mudam radicalmente de década para década. O que antes era considerado um manequim "42" pode equivaler a um "38" nos padrões atuais das fast fashions. Por isso, ao comprar roupa feminina usada em um brechó, nunca se limite à etiqueta. Pegue a peça. Sinta a estrutura nos ombros. Use o espelho e, acima de tudo, não hesite em experimentar várias vezes. Muitas saias maravilhosas ficam divinas com pequenos e simples apertos na cintura feitos em uma boa costureira.</p>
         <p>Ombreiras e acabamentos são as digitais das décadas passadas. Casacos oitentistas possuem uma silhueta marcante — e remover ou aparar as ombreiras de um blazer de lã pode modernizar o casaco imediatamente, sem comprometer a durabilidade ou o corte original. Além disso, verifique as estampas: sedas, poás e xadrezes antigos costumam possuir padronagens que não repetimos hoje, e misturar essas camisas clássicas ao seu jeans moderno favorito constrói um visual autêntico e descolado que atrai olhares pela Savassi inteira.</p>
-        <p>Outra grande mina de ouro nos brechós vintage são os acessórios. Cintos com fivelas douradas robustas de latão estão voltando com tudo e entregam o famoso peso estético final a qualquer chemise ou calça básica. Os lenços de seda originários de outros países são multiuso: amarrados no pescoço, na alça de uma bolsa de brechó estruturada ou decorando um penteado de cabelo impecável. O verdadeiro poder da roupa de segunda mão é a capacidade de recontextualização imediata.</p>
+        <p>Outra grande mina de ouro nos brechós vintage são os acessórios. Cintos com fivelas douradas robustas de latão estão voltando com tudo e entregam o famoso peso estético final a qualquer chemise ou calça básica. Os lenços de seda originários de outros países são multiuso: amarrados no pescoço, na alça de uma bolsa de brechó estruturada ou decorando        <img src="../assets/images/galeria/{image_filename}" alt="Acessórios e garimpo vintage" style="width:100%; max-width:600px; border-radius:8px; margin: 30px auto; display:block;">
         <p>Abrace a paciência como virtude principal. Visitar seu brechó frequentemente é a única forma de pegar as reposições no momento em que elas entram na arara. Toda semana no Brechó Outra Vez nós apresentamos peças de consignação de clientes fantásticas de marcas excelentes e peças atemporais vindas de acervos ricos. Portanto, defina o que está faltando, abra a mente para ajustes pontuais na costureira e aprenda a admirar o trabalho minucioso e de excelência que só o antigo proporciona. Esse é o segredo do garimpo sem erro.</p>
         """
     }
+]
+
+# Image mapping for posts 1 to 10
+post_images = [
+    "galeria-roupa-03.jpg",   # 1
+    "galeria-roupa-09.jpg",   # 2
+    "galeria-bolsa-02.jpg",   # 3
+    "galeria-roupa-05.jpg",   # 4
+    "galeria-acess-04.jpg",   # 5
+    "galeria-roupa-07.jpg",   # 6
+    "galeria-bolsa-05.jpg",   # 7
+    "galeria-sapato-04.jpg",  # 8
+    "galeria-roupa-10.jpg",   # 9
+    "galeria-acess-07.jpg"    # 10
 ]
 
 # Generate index.html for blog (to fix names/titles)
@@ -138,11 +152,17 @@ for art in articles_data:
     filename = f"artigo-{art['id']}.html"
     filepath = os.path.join(blog_dir, filename)
     
+    # Use specific image for this post
+    img_name = post_images[art['id'] - 1]
+    import re
+    # Replace the img tag src attribute
+    updated_content = re.sub(r'galeria/galeria-\d\.jpg|araras\.jpg|galeria-5\.jpg', f'galeria/{img_name}', art["content"])
+    
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html_template.format(
             title=art["title"],
             desc=art["desc"],
-            content=art["content"]
+            content=updated_content
         ))
         
 # For articles 6 to 10 we'll just duplicate contents slightly altered internally to ensure all 10 are solid.
@@ -152,13 +172,18 @@ for i in range(6, 11):
     art["id"] = i
     art["title"] = art["title"].replace("Hoje", "este ano").replace("Vintage", "Únicas").replace("brechó", "nosso brechó Savassi")
     
+    # Use specific image for this post
+    img_name = post_images[art['id'] - 1]
+    import re
+    updated_content = re.sub(r'galeria/galeria-\d\.jpg|araras\.jpg|galeria-5\.jpg', f'galeria/{img_name}', art["content"])
+    
     filename = f"artigo-{art['id']}.html"
     filepath = os.path.join(blog_dir, filename)
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html_template.format(
             title=art["title"],
             desc=art["desc"],
-            content=art["content"] # Same body but acts as mockup extension for SEO length proof
+            content=updated_content # Same body but acts as mockup extension for SEO length proof
         ))
 
 # Overhaul blog/index.html
@@ -208,9 +233,10 @@ blog_index_html = """<!DOCTYPE html>
 for idx in range(1, 11):
     art = articles_data[min(idx-1, 4)]
     title = art["title"] if idx <= 5 else art["title"] + " em Brechós"
+    img_name = post_images[idx - 1]
     blog_index_html += f"""
           <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-{idx}.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/galeria/galeria-{idx%5+1}.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/galeria/{img_name}" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
             <div style="padding:24px;">
                 <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-{idx}.html">{title}</a></h3>
                 <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">{art['desc']}</p>
