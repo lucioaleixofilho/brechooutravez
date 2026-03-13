@@ -67,18 +67,18 @@ articles_data = [
     }
 ]
 
-# Image mapping for posts 1 to 10
+# Image mapping for posts 1 to 10 using blog images
 post_images = [
-    "galeria-roupa-03.jpg",   # 1
-    "galeria-roupa-09.jpg",   # 2
-    "galeria-bolsa-02.jpg",   # 3
-    "galeria-roupa-05.jpg",   # 4
-    "galeria-acess-04.jpg",   # 5
-    "galeria-roupa-07.jpg",   # 6
-    "galeria-bolsa-05.jpg",   # 7
-    "galeria-sapato-04.jpg",  # 8
-    "galeria-roupa-10.jpg",   # 9
-    "galeria-acess-07.jpg"    # 10
+    "blog-1.jpg",
+    "blog-2.jpg",
+    "blog-3.jpg",
+    "blog-4.jpg",
+    "blog-5.jpg",
+    "blog-6.jpg",
+    "blog-7.jpg",
+    "blog-8.jpg",
+    "blog-9.jpg",
+    "blog-10.jpg"
 ]
 
 # Generate index.html for blog (to fix names/titles)
@@ -156,7 +156,7 @@ for art in articles_data:
     img_name = post_images[art['id'] - 1]
     import re
     # Replace the img tag src attribute
-    updated_content = re.sub(r'galeria/galeria-\d\.jpg|araras\.jpg|galeria-5\.jpg', f'galeria/{img_name}', art["content"])
+    updated_content = re.sub(r'galeria/galeria-\S*\.jpg|araras\.jpg|galeria-5\.jpg', f'blog/{img_name}', art["content"])
     
     with open(filepath, 'w', encoding='utf-8') as f:
         f.write(html_template.format(
@@ -175,7 +175,7 @@ for i in range(6, 11):
     # Use specific image for this post
     img_name = post_images[art['id'] - 1]
     import re
-    updated_content = re.sub(r'galeria/galeria-\d\.jpg|araras\.jpg|galeria-5\.jpg', f'galeria/{img_name}', art["content"])
+    updated_content = re.sub(r'galeria/galeria-\S*\.jpg|araras\.jpg|galeria-5\.jpg', f'blog/{img_name}', art["content"])
     
     filename = f"artigo-{art['id']}.html"
     filepath = os.path.join(blog_dir, filename)
@@ -236,7 +236,7 @@ for idx in range(1, 11):
     img_name = post_images[idx - 1]
     blog_index_html += f"""
           <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-{idx}.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/galeria/{img_name}" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/{img_name}" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
             <div style="padding:24px;">
                 <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-{idx}.html">{title}</a></h3>
                 <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">{art['desc']}</p>
