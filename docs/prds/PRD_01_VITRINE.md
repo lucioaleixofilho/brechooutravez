@@ -66,7 +66,7 @@ Integração futura com Minha Lojita via window.MINHA_LOJITA_API.
 - llms.txt — guia semântico para LLMs
 
 ## Consignação (50/50)
-- Cliente traz peças (seg-sex 9h30-18h)
+- Cliente traz peças (seg-sex 10h-18h)
 - Avaliação conjunta: qualidade, estado, valor
 - Prazo: 90 dias na loja
 - Split: 50% cliente, 50% brechó

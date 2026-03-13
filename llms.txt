@@ -24,7 +24,7 @@ Arquétipo: Cuidador (principal) + Explorador (secundário)
 
 ## Localização e Contato
 - [Endereço e horários](https://boutravez.netlify.app/#localizacao): Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. CEP 30110-036.
-- Horários: Segunda a sexta 9h30-18h | Sábado 9h30-13h | Domingo fechado
+- Horários: Segunda a sexta 10h-18h | Sábado 10h-13h | Domingo fechado
 - WhatsApp: +55 31 3324-3383 (https://wa.me/5531933243383)
 - Instagram: @boutravez (https://www.instagram.com/boutravez/)
 - Facebook: /boutravez (https://www.facebook.com/boutravez/)

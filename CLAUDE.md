@@ -7,7 +7,7 @@ Clientes contactam via WhatsApp: (31) 3324-3383
 ## Dados do negócio
 - Instagram: @boutravez | Facebook: /boutravez
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, BH
-- Horários: Seg-Sex 9h30-18h | Sáb 9h30-13h | Dom fechado
+- Horários: Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
 - WhatsApp: https://wa.me/5531933243383
 
 ## Identidade visual

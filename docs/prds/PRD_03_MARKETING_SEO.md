@@ -81,7 +81,7 @@ Guia semântico para LLMs em /llms.txt — mapa do site com contexto semântico 
 ## Google Meu Negócio
 
 ### Descrição otimizada
-> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 9h30-18h | Sáb 9h30-13h."
+> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 10h-18h | Sáb 10h-13h."
 
 ### Tipos de Posts (3x/semana)
 1. **Novidades** — foto de peça nova (sinaliza inventário ativo ao Google)

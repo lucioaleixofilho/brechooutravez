@@ -136,15 +136,15 @@ Exemplo:
 
 ### WhatsApp — resposta para disponibilidade
 
-"Oi! Essa peça ainda está disponível sim. Quando você quer passar aqui pra ver? A gente fica seg-sex 9h30-18h e sábado até 13h."
+"Oi! Essa peça ainda está disponível sim. Quando você quer passar aqui pra ver? A gente fica seg-sex 10h-18h e sábado até 13h."
 
 ### WhatsApp — resposta para consignacao
 
-"Oi! Aceitamos consignação sim. Você traz as peças aqui na loja (seg-sex 9h30-18h), a gente avalia juntos e define o preço. Quando vende, você recebe 50% do valor. Prazo na loja: 90 dias. Tem alguma dúvida?"
+"Oi! Aceitamos consignação sim. Você traz as peças aqui na loja (seg-sex 10h-18h), a gente avalia juntos e define o preço. Quando vende, você recebe 50% do valor. Prazo na loja: 90 dias. Tem alguma dúvida?"
 
 ### WhatsApp — resposta para horario/localizacao
 
-"Ficamos na Av. do Contorno, 5690 - Loja B, no Savassi. Funcionamos seg-sex das 9h30 às 18h e sábado das 9h30 às 13h. Domingo fechado. Quer que eu mande o link do maps?"
+"Ficamos na Av. do Contorno, 5690 - Loja B, no Savassi. Funcionamos seg-sex das 10h às 18h e sábado das 10h às 13h. Domingo fechado. Quer que eu mande o link do maps?"
 
 ### GMB — resposta a review positivo
 
@@ -184,7 +184,7 @@ Nunca seja condescendente com nenhuma das duas. Tratar como amiga inteligente qu
 Salvar exatamente estes textos como respostas rápidas no WhatsApp Business.
 
 **1. Peca disponivel**
-"Oi! Essa peça está disponível sim, por R$[preço]. Quer mais fotos ou passa aqui pra ver? Ficamos seg-sex 9h30-18h e sábado até 13h."
+"Oi! Essa peça está disponível sim, por R$[preço]. Quer mais fotos ou passa aqui pra ver? Ficamos seg-sex 10h-18h e sábado até 13h."
 
 **2. Peca nao disponivel**
 "Oi! Essa peça já encontrou uma nova dona, infelizmente. Mas chegam peças novas toda semana — quer que eu te avise quando chegar algo parecido?"
@@ -193,7 +193,7 @@ Salvar exatamente estes textos como respostas rápidas no WhatsApp Business.
 "Oi! Funciona assim: você traz suas peças aqui, a gente avalia juntos. O que aceitar entra em consignação por 90 dias. Quando vende, você recebe 50% do valor. Sem complicação. Quer marcar um horário?"
 
 **4. Pergunta sobre localizacao/horario**
-"Estamos na Av. do Contorno, 5690, Loja B — Savassi, BH. Funcionamos seg-sex das 9h30 às 18h e sábado das 9h30 às 13h. Aqui está o maps: [link]"
+"Estamos na Av. do Contorno, 5690, Loja B — Savassi, BH. Funcionamos seg-sex das 10h às 18h e sábado das 10h às 13h. Aqui está o maps: [link]"
 
 **5. Primeira visita**
 "Oi! Que bom que você vai passar por aqui! A gente fica no andar térreo, é fácil achar. Se tiver qualquer dúvida na hora, me chama aqui mesmo. Até já!"

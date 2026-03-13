@@ -166,7 +166,7 @@ Fala como uma amiga de bom gosto que te apresenta algo que ela encontrou e ficou
 **Prioridade:** Fotos de qualidade + responder perguntas + colher reviews
 
 **Descrição otimizada (para usar no GMB):**
-> Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que vale a pena. Peças a partir de R$10. Trabalhamos com consignação: traga suas peças e encontramos uma nova dona. Av. do Contorno, 5690 - Loja B. Seg-Sex 9h30-18h | Sáb 9h30-13h.
+> Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que vale a pena. Peças a partir de R$10. Trabalhamos com consignação: traga suas peças e encontramos uma nova dona. Av. do Contorno, 5690 - Loja B. Seg-Sex 10h-18h | Sáb 10h-13h.
 
 ---
 
@@ -333,7 +333,7 @@ Fala como uma amiga de bom gosto que te apresenta algo que ela encontrou e ficou
 ### 10 Perguntas FAQ para Google Meu Negócio
 
 1. **O Brechó Outra Vez aceita consignação?**
-   Sim! Trabalhamos com consignação. Traga suas peças para avaliação (seg-sex 9h30-18h, sáb até 13h). Aceitamos roupas, bolsas, sapatos e acessórios femininos em bom estado. Entramos em contato após a avaliação com o que foi aceito e o valor de venda.
+   Sim! Trabalhamos com consignação. Traga suas peças para avaliação (seg-sex 10h-18h, sáb até 13h). Aceitamos roupas, bolsas, sapatos e acessórios femininos em bom estado. Entramos em contato após a avaliação com o que foi aceito e o valor de venda.
 
 2. **Quais marcas vocês aceitam na consignação?**
    Avaliamos todas as marcas, desde que as peças estejam em bom estado — sem manchas, sem rasgos, sem desgaste excessivo. Damos preferência a tecidos de qualidade e peças com caimento. Não é sobre a grife, é sobre a qualidade da peça.
@@ -348,7 +348,7 @@ Fala como uma amiga de bom gosto que te apresenta algo que ela encontrou e ficou
    O brechó é físico, mas você pode nos chamar no WhatsApp para ver se temos algo do que você procura. Entrega: entre em contato para combinar.
 
 6. **Qual o horário de funcionamento?**
-   Segunda a sexta: 9h30 às 18h. Sábado: 9h30 às 13h. Domingo: fechado.
+   Segunda a sexta: 10h às 18h. Sábado: 10h às 13h. Domingo: fechado.
 
 7. **Onde fica o Brechó Outra Vez?**
    Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. Fácil de achar, próximo ao metrô Savassi.
@@ -441,7 +441,7 @@ Tem peça boa parada no armário há 2 anos?
 
 A gente resolve isso.
 
-1. Traz pra avaliação (seg-sex 9h30-18h)
+1. Traz pra avaliação (seg-sex 10h-18h)
 2. A gente define o preço juntos
 3. Quando vende, você recebe
 
@@ -511,7 +511,7 @@ Venha descobrir o que tem pra você.
 ## APÊNDICE — Números de referência
 
 - **Endereço:** Av. do Contorno, 5690 - Loja B, Savassi, BH
-- **Horários:** Seg-Sex 9h30-18h | Sáb 9h30-13h | Dom fechado
+- **Horários:** Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
 - **WhatsApp:** https://wa.me/5531933243383
 - **Instagram:** @boutravez
 - **Facebook:** /boutravez

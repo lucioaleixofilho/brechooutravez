@@ -111,7 +111,7 @@ BRECHOWEBSITE/
 **Nome:** Brechó Outra Vez
 **Handle:** @boutravez
 **Localização:** Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte MG
-**Horário:** Seg-Sex 9h30-18h | Sáb 9h30-13h
+**Horário:** Seg-Sex 10h-18h | Sáb 10h-13h
 **WhatsApp:** (31) 3324-3383
 **Serviço:** Brechó feminino de curadoria + consignação
 **Posicionamento:** Acessível com sofisticação + comunidade e afeto

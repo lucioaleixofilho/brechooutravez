@@ -113,7 +113,7 @@ e futuramente pelo sistema Minha Lojita.
 
 ## Dados do Negócio
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, BH
-- Horários: Seg-Sex 9h30-18h | Sáb 9h30-13h | Dom fechado
+- Horários: Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
 - WhatsApp: (31) 3324-3383
 - Instagram: @boutravez | Facebook: /boutravez
 - Consignação: 50/50 (cliente / brechó)
@@ -617,10 +617,10 @@ Nunca usar — passam mensagem errada para o público B/C com gosto apurado:
 "[Peça X] está por R$[valor]! [Adicionar 1 detalhe de qualidade: 'está em ótimo estado / tecido impecável / nunca usada']. Quer passar aqui pra ver de perto?"
 
 ### Situação 3: Interesse em consignação
-"Que ótimo! A gente adora receber peças com história 🙂 Pode trazer qualquer dia da semana (seg-sex 9h30-18h, sáb 9h30-13h). Avaliamos juntas, definimos o preço e quando vender você recebe 50%. Tem alguma dúvida sobre como funciona?"
+"Que ótimo! A gente adora receber peças com história 🙂 Pode trazer qualquer dia da semana (seg-sex 10h-18h, sáb 10h-13h). Avaliamos juntas, definimos o preço e quando vender você recebe 50%. Tem alguma dúvida sobre como funciona?"
 
 ### Situação 4: Pergunta de horário
-"Funcionamos de segunda a sexta das 9h30 às 18h e sábados das 9h30 às 13h. Domingo fechado. Estamos na Av. do Contorno, 5690 - Loja B, Savassi. Qualquer dúvida é só chamar aqui!"
+"Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h. Domingo fechado. Estamos na Av. do Contorno, 5690 - Loja B, Savassi. Qualquer dúvida é só chamar aqui!"
 
 ### Situação 5: Como chegar
 "Fica na Av. do Contorno, 5690 - Loja B, Savassi, BH! Bem perto do [referência local se souber]. Você vindo de [X], [indicação simples]. Qualquer coisa me chama que te ajudo a encontrar 🙂"
@@ -915,7 +915,7 @@ Usar áudio trending e mostrar como peça vintage se encaixa na tendência atual
 5. **Responder TODOS os reviews** — positivos e negativos
 
 ### Descrição GMB (copiar exato):
-> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe 50%. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 9h30-18h | Sáb 9h30-13h."
+> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe 50%. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 10h-18h | Sáb 10h-13h."
 
 ### 3 Tipos de Post GMB (2-3x/semana)
 1. **Novidades:** foto de peça nova + breve descrição + preço
@@ -1098,7 +1098,7 @@ Total: 40-60 palavras
 *(52 palavras)*
 
 **Q2: Onde tem brechó feminino de curadoria no Savassi, BH?**
-**O Brechó Outra Vez é um brechó feminino de curadoria no Savassi, Belo Horizonte.** Ficamos na Av. do Contorno, 5690 - Loja B. Trabalhamos com roupas, bolsas, sapatos e acessórios selecionados a dedo, além de consignação. Seg-Sex 9h30-18h | Sáb 9h30-13h.
+**O Brechó Outra Vez é um brechó feminino de curadoria no Savassi, Belo Horizonte.** Ficamos na Av. do Contorno, 5690 - Loja B. Trabalhamos com roupas, bolsas, sapatos e acessórios selecionados a dedo, além de consignação. Seg-Sex 10h-18h | Sáb 10h-13h.
 *(46 palavras)*
 
 **Q3: Como diferenciar roupa boa de ruim no brechó?**
@@ -1148,7 +1148,7 @@ Total: 40-60 palavras
 **Grupo 4 — Localização e Praticidade**
 
 **Q13: Onde fica o Brechó Outra Vez?**
-**Estamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG.** Ficamos no coração do Savassi, de fácil acesso. Funcionamos de segunda a sexta das 9h30 às 18h e sábados das 9h30 às 13h. Domingo fechado.
+**Estamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG.** Ficamos no coração do Savassi, de fácil acesso. Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h. Domingo fechado.
 *(40 palavras)*
 
 **Q14: Posso ver as peças online antes de ir ao brechó?**
@@ -1156,7 +1156,7 @@ Total: 40-60 palavras
 *(40 palavras)*
 
 **Q15: Quais formas de pagamento o brechó aceita?**
-**Aceitamos dinheiro, PIX e cartão de débito e crédito.** Peças a partir de R$10. Não é necessário agendamento para visitar a loja — pode chegar dentro do horário de funcionamento (seg-sex 9h30-18h, sáb 9h30-13h).
+**Aceitamos dinheiro, PIX e cartão de débito e crédito.** Peças a partir de R$10. Não é necessário agendamento para visitar a loja — pode chegar dentro do horário de funcionamento (seg-sex 10h-18h, sáb 10h-13h).
 *(36 palavras)*
 
 **Q16: Como funciona a compra no brechó?**
@@ -1407,7 +1407,7 @@ Sitemap: https://boutravez.netlify.app/sitemap.xml
 - Handle: @boutravez (Instagram e Facebook)
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG
 - WhatsApp: (31) 3324-3383
-- Horários: Segunda a sexta 9h30-18h | Sábado 9h30-13h | Domingo fechado
+- Horários: Segunda a sexta 10h-18h | Sábado 10h-13h | Domingo fechado
 
 ## Sobre o Brechó
 - [Sobre](/index.html#sobre): História, missão e posicionamento da marca
@@ -1440,7 +1440,7 @@ Localizar no `<head>`:
 Substituir por:
 ```html
 <title>Brechó Outra Vez — Brechó Feminino de Curadoria no Savassi, BH</title>
-<meta name="description" content="Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo. Consignação 50/50. Av. do Contorno, 5690. Seg-Sex 9h30-18h.">
+<meta name="description" content="Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo. Consignação 50/50. Av. do Contorno, 5690. Seg-Sex 10h-18h.">
 ```
 
 **Step 5: Adicionar FAQPage JSON-LD ao index.html**
@@ -1466,7 +1466,7 @@ Inserir antes do `</head>`, após os schemas existentes:
       "name": "Onde fica o Brechó Outra Vez no Savassi BH?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. Funcionamos de segunda a sexta das 9h30 às 18h e sábados das 9h30 às 13h. Domingo fechado. WhatsApp: (31) 3324-3383."
+        "text": "O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h. Domingo fechado. WhatsApp: (31) 3324-3383."
       }
     },
     {
@@ -1506,7 +1506,7 @@ Inserir antes do `</head>`, após os schemas existentes:
       "name": "Quais formas de pagamento o brechó aceita?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Aceitamos dinheiro, PIX e cartão de débito e crédito. Peças a partir de R$10. Não é necessário agendamento para visitar a loja — pode chegar dentro do horário de funcionamento: segunda a sexta das 9h30 às 18h, sábados das 9h30 às 13h."
+        "text": "Aceitamos dinheiro, PIX e cartão de débito e crédito. Peças a partir de R$10. Não é necessário agendamento para visitar a loja — pode chegar dentro do horário de funcionamento: segunda a sexta das 10h às 18h, sábados das 10h às 13h."
       }
     },
     {
@@ -1599,7 +1599,7 @@ Inserir após a seção `#como-funciona` e antes de `#localizacao`:
       <div class="consignacao-passo">
         <span class="passo-numero">01</span>
         <h3>Você traz as peças</h3>
-        <p>Traga suas roupas, bolsas, sapatos ou acessórios para avaliação. Segunda a sexta das 9h30 às 18h, sábados das 9h30 às 13h.</p>
+        <p>Traga suas roupas, bolsas, sapatos ou acessórios para avaliação. Segunda a sexta das 10h às 18h, sábados das 10h às 13h.</p>
       </div>
       <div class="consignacao-passo">
         <span class="passo-numero">02</span>
@@ -1659,7 +1659,7 @@ Inserir após a seção `#como-funciona` e antes de `#localizacao`:
       <h3>Dúvidas frequentes</h3>
       <details class="faq-item">
         <summary>Precisa agendar para trazer as peças?</summary>
-        <p>Não precisa de agendamento. Pode chegar a qualquer hora dentro do horário de funcionamento: segunda a sexta das 9h30 às 18h, sábados das 9h30 às 13h. Se quiser garantir atendimento exclusivo, pode nos avisar pelo WhatsApp antes.</p>
+        <p>Não precisa de agendamento. Pode chegar a qualquer hora dentro do horário de funcionamento: segunda a sexta das 10h às 18h, sábados das 10h às 13h. Se quiser garantir atendimento exclusivo, pode nos avisar pelo WhatsApp antes.</p>
       </details>
       <details class="faq-item">
         <summary>Qual o prazo para as peças ficarem na loja?</summary>
@@ -1698,7 +1698,7 @@ Inserir junto com os outros schemas no `<head>`:
     {
       "@type": "HowToStep",
       "name": "Trazer as peças para avaliação",
-      "text": "Leve suas roupas, bolsas, sapatos ou acessórios ao Brechó Outra Vez (Av. do Contorno, 5690 - Loja B, Savassi, BH) de segunda a sexta das 9h30 às 18h ou sábados das 9h30 às 13h. Não precisa de agendamento."
+      "text": "Leve suas roupas, bolsas, sapatos ou acessórios ao Brechó Outra Vez (Av. do Contorno, 5690 - Loja B, Savassi, BH) de segunda a sexta das 10h às 18h ou sábados das 10h às 13h. Não precisa de agendamento."
     },
     {
       "@type": "HowToStep",

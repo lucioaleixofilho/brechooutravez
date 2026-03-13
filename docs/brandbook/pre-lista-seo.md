@@ -141,7 +141,7 @@ Esses termos ajudam a IA a entender que somos especialistas no assunto.
 ## 6. TEXTOS OTIMIZADOS PRONTOS PARA USO
 
 ### Texto 1 — Para seção "Sobre" do site (AEO-ready)
-> O Brechó Outra Vez é um brechó feminino de curadoria localizado no Savassi, Belo Horizonte. Selecionamos roupas, bolsas, sapatos e acessórios femininos de qualidade — peças que passaram por avaliação rigorosa antes de chegar à arara. Trabalhamos com consignação: você traz suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Estamos na Av. do Contorno, 5690 - Loja B, atendendo de segunda a sexta das 9h30 às 18h e sábados das 9h30 às 13h.
+> O Brechó Outra Vez é um brechó feminino de curadoria localizado no Savassi, Belo Horizonte. Selecionamos roupas, bolsas, sapatos e acessórios femininos de qualidade — peças que passaram por avaliação rigorosa antes de chegar à arara. Trabalhamos com consignação: você traz suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Estamos na Av. do Contorno, 5690 - Loja B, atendendo de segunda a sexta das 10h às 18h e sábados das 10h às 13h.
 
 *Por que funciona para AEO:* contém definição clara ("brechó feminino de curadoria"), localização precisa, serviços explícitos, horário — tudo que IA vai extrair para responder perguntas locais.
 
@@ -174,7 +174,7 @@ Esses termos ajudam a IA a entender que somos especialistas no assunto.
       "name": "O Brechó Outra Vez fica no Savassi em BH?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim. Estamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. Funcionamos de segunda a sexta das 9h30 às 18h e sábados das 9h30 às 13h."
+        "text": "Sim. Estamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h."
       }
     },
     {
@@ -200,7 +200,7 @@ Esses termos ajudam a IA a entender que somos especialistas no assunto.
 ---
 
 ### Texto 3 — Descrição Google Meu Negócio (otimizado, 750 chars)
-> Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 9h30-18h | Sáb 9h30-13h.
+> Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 10h-18h | Sáb 10h-13h.
 
 ---
 

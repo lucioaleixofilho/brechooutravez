@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "notebooklm": {
+      "type": "stdio",
+      "command": "C:\\Users\\lucio\\sistema767\\.venv\\Scripts\\notebooklm-mcp.exe"
+    }
+  }
+}

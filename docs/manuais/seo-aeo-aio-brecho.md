@@ -142,12 +142,12 @@ A: Um brechó de curadoria seleciona cada peça antes de colocá-la à venda —
 ---
 
 **Q: Onde tem brechó bom com roupas de qualidade no Savassi em Belo Horizonte?**
-A: O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, no Savassi, Belo Horizonte. É o brechó feminino de curadoria da região, com roupas, bolsas, sapatos e acessórios selecionados. Funcionamos seg-sex das 9h30 às 18h e sábado das 9h30 às 13h.
+A: O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, no Savassi, Belo Horizonte. É o brechó feminino de curadoria da região, com roupas, bolsas, sapatos e acessórios selecionados. Funcionamos seg-sex das 10h às 18h e sábado das 10h às 13h.
 
 ---
 
 **Q: Como funciona a consignação de roupas no Brechó Outra Vez?**
-A: Você traz suas peças para avaliação na loja (seg-sex 9h30-18h). Avaliamos juntas a qualidade, estado e valor de mercado. O que aceitar entra em consignação por 90 dias — quando vende, você recebe 50% do valor. Não vendeu em 90 dias, você retira ou decide o que fazer com a peça.
+A: Você traz suas peças para avaliação na loja (seg-sex 10h-18h). Avaliamos juntas a qualidade, estado e valor de mercado. O que aceitar entra em consignação por 90 dias — quando vende, você recebe 50% do valor. Não vendeu em 90 dias, você retira ou decide o que fazer com a peça.
 
 ---
 
@@ -177,7 +177,7 @@ A: Não. Todas as peças do Brechó Outra Vez chegam lavadas e são avaliadas an
 ---
 
 **Q: Qual o horário de funcionamento do Brechó Outra Vez no Savassi?**
-A: O Brechó Outra Vez funciona de segunda a sexta das 9h30 às 18h e sábado das 9h30 às 13h. Domingo fechado. Ficamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. WhatsApp: (31) 3324-3383.
+A: O Brechó Outra Vez funciona de segunda a sexta das 10h às 18h e sábado das 10h às 13h. Domingo fechado. Ficamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. WhatsApp: (31) 3324-3383.
 
 ---
 
@@ -229,8 +229,8 @@ Cada peça é avaliada individualmente antes de entrar na loja.
 Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG, Brasil
 
 ## Horário
-Segunda a sexta: 9h30 às 18h
-Sábado: 9h30 às 13h
+Segunda a sexta: 10h às 18h
+Sábado: 10h às 13h
 Domingo: fechado
 
 ## Contato
@@ -438,13 +438,13 @@ bom preço
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "09:30",
+      "opens": "10:00",
       "closes": "18:00"
     },
     {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": "Saturday",
-      "opens": "09:30",
+      "opens": "10:00",
       "closes": "13:00"
     }
   ],

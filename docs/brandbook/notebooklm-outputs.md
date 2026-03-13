@@ -159,7 +159,7 @@
 5. **Reviews com prova social** — solicitar ativamente avaliações de clientes satisfeitas
 
 ### Descrição GMB otimizada (validada pelo NotebookLM):
-> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 9h30-18h | Sáb 9h30-13h."
+> "Brechó feminino de curadoria no Savassi, Belo Horizonte. Roupas, bolsas, sapatos e acessórios selecionados a dedo — só entra o que tem qualidade e vale a pena. Peças a partir de R$10. Aceitamos consignação: traga suas peças, avaliamos juntos, e quando vendem você recebe sua parte. Av. do Contorno, 5690 - Loja B, Savassi, BH. Seg-Sex 10h-18h | Sáb 10h-13h."
 
 ### Posts GMB — 3 tipos por semana:
 - **Novidades** — foto de peça nova em fundo neutro (sinaliza inventário ativo ao Google)
