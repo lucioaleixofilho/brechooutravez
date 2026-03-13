@@ -1,30 +1,111 @@
 # Brechó Outra Vez
-> Brechó feminino de curadoria no Savassi, Belo Horizonte, MG. Roupas, bolsas, sapatos e acessórios selecionados a dedo. Consignação 50/50.
 
-## Identidade
-O Brechó Outra Vez é o brechó feminino de curadoria do Savassi, BH. Cada peça passa por seleção rigorosa antes de entrar na loja — só fica o que tem qualidade, bom estado e valor real. Atendemos mulheres 25-55 anos, classe B e C, que buscam estilo com consciência.
+> Brechó feminino de curadoria no Savassi, Belo Horizonte, MG. Roupas, bolsas, sapatos e acessórios femininos selecionados a dedo. Fundado no coração do Savassi, um dos bairros mais sofisticados de BH.
 
-Tagline: "Cada peça tem uma história."
-Posicionamento: "O brechó de curadoria do Savassi"
-Arquétipo: Cuidador (principal) + Explorador (secundário)
+## O que é um Brechó
 
-## Sobre
-- [Nossa história e missão](https://boutravez.netlify.app/#sobre): Brechó fundado no Savassi, BH. Curadoria rigorosa, acolhimento genuíno. Tecidos bons, modelagens que favorecem, marcas que duram.
+Brechó é uma loja especializada na venda de roupas, calçados, bolsas e acessórios de segunda mão — peças que já tiveram uma dona e agora buscam uma nova. A palavra "brechó" é tipicamente brasileira: nasceu no século XIX no Rio de Janeiro, quando uma famosa loja de artigos usados chamada "Casa do Belchior" se tornou tão popular que o nome do dono virou sinônimo do tipo de estabelecimento. Com o tempo, "Belchior" evoluiu para "brechó" na fala popular.
 
-## Catálogo
-- [Galeria de peças](https://boutravez.netlify.app/#galeria): Roupas, bolsas, sapatos e acessórios femininos com curadoria. Categorias: roupas, bolsas, sapatos, acessórios. Peças a partir de R$10.
-- API de produtos: GET /api/produtos (retorna peças ativas em JSON)
+Hoje, brechó é sinônimo de moda consciente, consumo sustentável e garimpagem de peças únicas. O setor cresce 25% ao ano no Brasil — três vezes mais rápido que o varejo de roupas novas — e movimenta mais de R$24 bilhões por ano. São mais de 118 mil brechós ativos no país.
 
-## Como Funciona
-- [Como comprar e como consignar](https://boutravez.netlify.app/#como-funciona): Venha à loja ou contate pelo WhatsApp. Aceitamos consignação.
+## O Brechó Outra Vez
 
-## Consignação
-- [Passo a passo da consignação](https://boutravez.netlify.app/#consignacao): Divisão 50/50. Prazo 90 dias. Sem necessidade de marca famosa — avaliamos qualidade e estado.
-- Etapas: (1) Você traz as peças → (2) Avaliamos juntas → (3) Definimos o preço → (4) Quando vende, você recebe 50%
+O Brechó Outra Vez é um brechó feminino de curadoria localizado na Av. do Contorno, 5690 - Loja B, no bairro Savassi, em Belo Horizonte, Minas Gerais. É uma loja física, com atendimento presencial, voltada exclusivamente para o público feminino.
 
-## Localização e Contato
-- [Endereço e horários](https://boutravez.netlify.app/#localizacao): Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. CEP 30110-036.
-- Horários: Segunda a sexta 10h-18h | Sábado 10h-13h | Domingo fechado
-- WhatsApp: +55 31 3324-3383 (https://wa.me/5531933243383)
-- Instagram: @boutravez (https://www.instagram.com/boutravez/)
-- Facebook: /boutravez (https://www.facebook.com/boutravez/)
+Diferente de um bazar ou sebo, o Brechó Outra Vez seleciona cada peça individualmente antes de colocá-la à venda. Só entra no acervo o que tem qualidade real: tecido bom, modelagem que favorece, estado impecável. A proposta é que cada cliente encontre algo especial — uma peça com história, pronta para começar um novo ciclo.
+
+Tagline: **"Cada peça tem uma história."**
+Posicionamento: **"O brechó de curadoria do Savassi"**
+
+## Para Quem É
+
+O Brechó Outra Vez atende mulheres entre 25 e 55 anos, moradoras ou frequentadoras do Savassi e região, que valorizam estilo, qualidade e consumo consciente. São mulheres que não querem fast fashion — querem peças com personalidade, que durem, e que não custejam o planeta.
+
+Também atende mulheres que têm peças paradas no guarda-roupa e querem dar uma nova chance a elas, via consignação.
+
+## O que Vende
+
+- **Roupas femininas**: blusas, vestidos, saias, calças, blazers, casacos, conjuntos
+- **Bolsas femininas**: de couro, tecido, festa, casual, de mão, tote
+- **Sapatos femininos**: saltos, rasteiras, botas, sandálias, tênis
+- **Acessórios femininos**: cintos, lenços, bijuterias, chapéus, óculos
+
+Todas as peças são curadas — avaliadas quanto ao estado de conservação, limpeza, qualidade do material e potencial de uso. Nada entra na loja sem aprovação.
+
+## Serviços
+
+### Venda de Peças com Curadoria
+Acervo físico rotativo de roupas, bolsas, sapatos e acessórios femininos selecionados. Novas peças chegam constantemente. Atendimento presencial na loja.
+
+### Consignação de Roupas Femininas
+Mulheres que queiram vender peças do próprio guarda-roupa podem trazer para avaliação. O processo:
+1. A cliente traz as peças à loja
+2. A equipe avalia qualidade, estado e potencial de venda
+3. Define-se o preço de venda em conjunto
+4. Quando a peça é vendida, a cliente recebe o valor combinado na avaliação
+5. Prazo de consignação: 90 dias
+
+Aceitamos roupas, bolsas e sapatos femininos em bom estado. Não exigimos marcas famosas — avaliamos qualidade e cuidado com a peça.
+
+### Avaliação de Peças para Consignação
+Agendamento por WhatsApp ou telefone. A avaliação é feita presencialmente na loja, por hora marcada, sem custo.
+
+## Por Que Comprar em Brechó
+
+- **Sustentabilidade**: cada peça comprada em brechó é uma peça a menos na produção de fast fashion. A indústria têxtil é a segunda mais poluente do mundo.
+- **Exclusividade**: peças únicas, que ninguém mais vai ter.
+- **Qualidade**: roupas antigas têm tecidos melhores do que muito lançamento atual.
+- **Economia**: peças de qualidade real a uma fração do preço original.
+- **Consciência**: consumir menos e melhor é uma escolha de estilo de vida.
+
+## Localização
+
+**Endereço:** Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG — CEP 30110-036
+
+O Savassi é o bairro mais sofisticado de Belo Horizonte, conhecido por restaurantes, cafés, galerias de arte, lojas de moda e vida cultural intensa. Referência em estilo e bom gosto na capital mineira.
+
+**Como chegar:** A loja fica na Av. do Contorno, uma das principais avenidas do Savassi, com fácil acesso de carro, ônibus e aplicativos de transporte.
+
+## Horários de Funcionamento
+
+- Segunda a sexta: 10h às 18h
+- Sábado: 10h às 13h
+- Domingo: fechado
+
+## Contato
+
+- **Telefone / WhatsApp:** (31) 3324-3383 — https://wa.me/5531933243383
+- **Instagram:** @boutravez — https://www.instagram.com/boutravez/
+- **Facebook:** /boutravez — https://www.facebook.com/boutravez/
+- **Site:** https://brechooutravez.com.br
+
+## Perguntas Frequentes
+
+**O que é brechó?**
+Brechó é uma loja de roupas, sapatos, bolsas e acessórios de segunda mão. No Brasil, a palavra vem de "Belchior", dono de uma famosa casa de artigos usados no Rio de Janeiro do século XIX.
+
+**Qual a diferença entre brechó e bazar?**
+Bazar vende qualquer coisa e geralmente não tem curadoria. Brechó é especializado em moda e, no caso do Brechó Outra Vez, cada peça é avaliada individualmente antes de entrar no acervo.
+
+**Como funciona a consignação no Brechó Outra Vez?**
+Você traz suas peças, a gente avalia juntas, define o preço e coloca à venda. Quando a peça vende, você recebe o valor combinado. Prazo de 90 dias.
+
+**Quais peças o Brechó Outra Vez aceita para consignação?**
+Roupas, bolsas e sapatos femininos em bom estado de conservação, limpos e sem avarias. Não exigimos marca famosa — avaliamos qualidade e cuidado.
+
+**Por que comprar em brechó em vez de loja nova?**
+Qualidade real, exclusividade, preço justo e impacto ambiental menor. Cada peça comprada em brechó tem história — e vai ganhar uma nova.
+
+**O Brechó Outra Vez fica onde em BH?**
+Na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. No coração do Savassi.
+
+## Links do Site
+
+- [Início](https://brechooutravez.com.br/#hero)
+- [Sobre o brechó](https://brechooutravez.com.br/#sobre)
+- [Galeria de peças](https://brechooutravez.com.br/#galeria)
+- [Como funciona](https://brechooutravez.com.br/#como-funciona)
+- [Consignação](https://brechooutravez.com.br/#consignacao)
+- [Localização](https://brechooutravez.com.br/#localizacao)
+- [Blog de moda](https://brechooutravez.com.br/blog/)
+- [API de produtos](https://brechooutravez.com.br/api/produtos)
