@@ -1,0 +1,36 @@
+name: Publicar Artigo no Google Meu Negócio
+
+on:
+  schedule:
+    # Roda toda semana no domingo às 10h UTC — o script decide se há artigo para hoje
+    - cron: '0 10 * * 0'
+  workflow_dispatch:
+    inputs:
+      force_article:
+        description: 'Forçar número do artigo (ex: 12). Deixe em branco para automático.'
+        required: false
+        default: ''
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependências
+        run: npm install googleapis
+
+      - name: Postar no Google Meu Negócio
+        env:
+          GMB_ACCOUNT_ID: ${{ secrets.GMB_ACCOUNT_ID }}
+          GMB_LOCATION_ID: ${{ secrets.GMB_LOCATION_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SITE_URL: 'https://brechooutravez.com.br'
+          FORCE_ARTICLE: ${{ github.event.inputs.force_article }}
+        run: node scripts/gmb-post.js

@@ -3,27 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reflexões — Brechó Outra Vez</title>
-  <meta name="description" content="Artigos sobre moda estruturada, sustentabilidade, peças de luxo de segunda mão e curadoria de moda em Belo Horizonte.">
+  <title>Blog — Moda, Curadoria e Estilo · Brechó Outra Vez</title>
+  <meta name="description" content="Artigos sobre moda circular, curadoria, sustentabilidade, estilo e brechó no Savassi. Dicas para garimpar, consignar e vestir-se com intenção em Belo Horizonte.">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css">
   <style>
     .blog-header { padding-top: 140px; padding-bottom: 80px; text-align: center; background: var(--cor-fundo-alt); }
     .blog-header h1 { font-family: var(--fonte-titulo); font-size: clamp(36px, 6vw, 56px); margin-bottom: 20px; }
+    .blog-card:hover { transform: translateY(-4px); }
+    .blog-card a { text-decoration: none; color: inherit; }
+    .blog-card h3 a { color: var(--cor-texto); }
+    .blog-card h3 a:hover { color: var(--cor-primaria); }
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <a href="../index.html" class="logo-link">
+  <header class="site-header" role="banner">
+    <a href="../index.html" class="logo-link" aria-label="Brechó Outra Vez — ir para o início">
       <img src="../assets/images/logo/logo.png" alt="Brechó Outra Vez" class="logo" width="160" style="object-fit:contain;">
     </a>
-    <nav class="main-nav">
+    <nav class="main-nav" role="navigation">
       <ul>
         <li><a href="../index.html#sobre">Sobre</a></li>
         <li><a href="../index.html#galeria">Peças</a></li>
         <li><a href="../index.html#consignacao">Consignação</a></li>
-        <li><a href="index.html">Reflexões</a></li>
-        <li><a href="tel:+553133243383" class="btn-whatsapp-nav" style="background:var(--cor-texto);">(31) 3324-3383</a></li>
+        <li><a href="index.html">Blog</a></li>
+        <li><a href="../index.html#localizacao" class="btn-whatsapp-nav">Como chegar</a></li>
       </ul>
     </nav>
   </header>
@@ -31,103 +35,363 @@
   <main>
     <section class="blog-header">
       <div class="container">
-        <span class="label">Nossa Voz, Desde 2007</span>
-        <h1>Reflexões Únicas</h1>
-        <p style="color: var(--cor-texto-leve); font-size: 18px; max-width: 600px; margin: 0 auto;">Dicas de estilo, cultura de moda circular e as nossas melhores ideias sobre o consumo consciente e inteligente na moda feminina usada.</p>
+        <span class="label">Moda com propósito</span>
+        <h1>Reflexões Outra Vez</h1>
+        <p style="color: var(--cor-texto-leve); font-size: 18px; max-width: 600px; margin: 0 auto;">Curadoria, estilo, moda circular e tudo que inspira um guarda-roupa mais consciente e mais bonito.</p>
       </div>
     </section>
-    
-    <section class="blog-list" style="padding: 80px 0;">
+
+    <section class="blog-list" style="padding: 80px 0;" aria-label="Lista de artigos">
       <div class="container">
         <div class="blog-grid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 40px;">
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-1.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-1.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-35.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-35.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Savassi BH moda consciente"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-1.html">Por que investir em moda circular e roupas usadas hoje?</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Descubra como o consumo consciente em brechós revoluciona o seu estilo e o planeta.</p>
-                <a href="artigo-1.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">14 de fevereiro de 2027</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-35.html">Savassi BH: o bairro da moda consciente em Belo Horizonte</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Conheça a cena de moda consciente do Savassi e por que o Outra Vez faz parte desse movimento.</p>
+              <a href="artigo-35.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-2.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-2.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-34.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-34.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Moda circular economia local"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-2.html">Como identificar tecidos premium no garimpo em brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Seda, linho, algodão... aprenda a olhar a etiqueta e o toque para fazer grandes achados.</p>
-                <a href="artigo-2.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">31 de janeiro de 2027</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-34.html">Como a moda circular beneficia a economia local</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">A moda circular fortalece a economia local, gera emprego no bairro e mantém o dinheiro circulando perto de você.</p>
+              <a href="artigo-34.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-3.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-3.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-33.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-33.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Cores que combinam com tudo"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-3.html">O Guia Prático da Consignação: Como vender roupas em brechó</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O que vale a pena desapegar? Descubra como funciona vender suas roupas usadas em BH.</p>
-                <a href="artigo-3.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">17 de janeiro de 2027</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-33.html">Cores que combinam com tudo — e como usá-las</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Algumas cores são verdadeiros coringas no guarda-roupa. Aprenda quais paletas funcionam com tudo.</p>
+              <a href="artigo-33.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-4.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-4.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-32.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-32.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Jeans vintage como usar"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-4.html">A volta do minimalismo autêntico nos brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Entenda por que as peças minimalistas de segunda mão estão mais desejadas do que nunca.</p>
-                <a href="artigo-4.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">3 de janeiro de 2027</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-32.html">A volta do jeans vintage: como usar bem</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O jeans vintage voltou com força. Saiba como identificar, garimpar e usar bem o denim de segunda mão.</p>
+              <a href="artigo-32.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-5.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-5.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-31.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-31.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Fotografar peças para consignação"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-5.html">Dicas essenciais para comprar Vintage</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-5.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">20 de dezembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-31.html">Como fotografar peças para consignação: dicas práticas</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Boas fotos aumentam as chances de venda. Aprenda técnicas simples de iluminação e composição.</p>
+              <a href="artigo-31.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-6.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-6.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-30.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-30.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Guarda-roupa minimalista estilo"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-6.html">Dicas essenciais para comprar Vintage em Brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-6.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">6 de dezembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-30.html">O guarda-roupa da mulher moderna: menos peças, mais estilo</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Descubra como o minimalismo no guarda-roupa, construído com brechó, se traduz em liberdade e elegância.</p>
+              <a href="artigo-30.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-7.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-7.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-29.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-29.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Bolsas que valorizam qualquer look"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-7.html">Dicas essenciais para comprar Vintage em Brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-7.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">22 de novembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-29.html">Bolsas que valorizam qualquer look</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Uma bolsa certa muda o look inteiro. Descubra quais modelos são atemporais e como encontrá-los em brechós.</p>
+              <a href="artigo-29.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-8.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-8.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-28.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-28.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Identificar peça de qualidade pelo toque"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-8.html">Dicas essenciais para comprar Vintage em Brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-8.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">8 de novembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-28.html">Como identificar uma peça de qualidade pelo toque</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Saber identificar qualidade pelo toque é a habilidade mais valiosa do garimpo. Aprenda a ler o tecido com as mãos.</p>
+              <a href="artigo-28.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
-          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-9.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-9.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-27.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-27.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Moda consciente virada cultural"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-9.html">Dicas essenciais para comprar Vintage em Brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-9.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">25 de outubro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-27.html">Moda consciente não é modinha: é uma virada cultural</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">A moda consciente deixou de ser tendência para se tornar uma virada cultural permanente.</p>
+              <a href="artigo-27.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-26.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-26.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Conservar peças delicadas seda lã linho veludo"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">11 de outubro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-26.html">Como lavar e conservar peças delicadas (seda, lã, linho, veludo)</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Seda, lã, linho e veludo pedem cuidados específicos. Aprenda a conservar peças delicadas para que durem anos.</p>
+              <a href="artigo-26.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-25.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-25.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Vestido midi versátil atemporal"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">27 de setembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-25.html">O poder do vestido midi: versátil e atemporal</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O vestido midi é a peça mais versátil do guarda-roupa feminino. Descubra por que ele funciona em todas as ocasiões.</p>
+              <a href="artigo-25.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-24.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-24.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Looks fim de semana peças de brechó"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">13 de setembro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-24.html">Looks para o fim de semana montados com peças de brechó</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Looks despojados e com personalidade para o fim de semana — todos montados com peças garimpadas.</p>
+              <a href="artigo-24.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-23.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-23.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Garimpar sapatos em brechós o que avaliar"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">30 de agosto de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-23.html">Como garimpar sapatos em brechós: o que avaliar</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar sapatos exige atenção especial. Aprenda o que avaliar antes de comprar calçados em brechós.</p>
+              <a href="artigo-23.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-22.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-22.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Brechó vs fast fashion números impacto"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">16 de agosto de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-22.html">Brechó vs fast fashion: o que os números dizem</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Os números por trás do fast fashion revelam impactos que poucos conhecem. Compare com o modelo circular.</p>
+              <a href="artigo-22.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-21.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-21.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Preparar roupas para consignação"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">2 de agosto de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-21.html">Como preparar suas roupas para consignação</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Preparar bem suas roupas para consignação aumenta as chances de venda e o retorno financeiro.</p>
+              <a href="artigo-21.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-20.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-20.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="História moda feminina anos 80 e 90"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">19 de julho de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-20.html">A história da moda feminina nos anos 80 e 90</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Os anos 80 e 90 moldaram a moda de formas que ainda ressoam hoje. Por que o vintage desse período é tão valorizado.</p>
+              <a href="artigo-20.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-19.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-19.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Roupas para o trabalho de brechó"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">5 de julho de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-19.html">Roupas para o trabalho encontradas em brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Vestir-se bem para o trabalho não precisa custar caro. Looks profissionais sofisticados com peças de brechó.</p>
+              <a href="artigo-19.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-18.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-18.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Como combinar estampas sem errar"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">21 de junho de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-18.html">Como combinar estampas sem errar</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Misturar estampas é desafiador — e elegante quando bem feito. Aprenda as regras para arriscar mais.</p>
+              <a href="artigo-18.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-17.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-17.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Blazer peça coringa guarda-roupa"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">7 de junho de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-17.html">Blazer: a peça coringa que todo guarda-roupa precisa</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O blazer é a peça mais versátil do guarda-roupa: casual, formal, elegante. Saiba como escolher o seu no brechó.</p>
+              <a href="artigo-17.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-16.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-16.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Acessórios para transformar look básico"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">24 de maio de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-16.html">Como usar acessórios para transformar um look básico</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Um acessório certo transforma um look básico em algo especial. Cintos, lenços, bijuterias e bolsas que elevam tudo.</p>
+              <a href="artigo-16.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-15.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-15.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="O que é moda lenta slow fashion"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">10 de maio de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-15.html">O que é moda lenta e por que ela importa</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">A moda lenta é o antídoto para o fast fashion. Entenda o que significa desacelerar o consumo de roupas.</p>
+              <a href="artigo-15.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-14.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-14.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Tendências de moda que nunca saem de estilo"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">26 de abril de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-14.html">Tendências de moda que nunca saem de estilo</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Algumas tendências atravessam décadas sem envelhecer. Descubra quais modas são verdadeiramente atemporais.</p>
+              <a href="artigo-14.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-13.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-13.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Cuidar de roupas de segunda mão"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">12 de abril de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-13.html">Como cuidar de roupas de segunda mão para durar mais</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Peças de segunda mão bem cuidadas duram muito mais. Aprenda os cuidados essenciais para cada tipo de tecido.</p>
+              <a href="artigo-13.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-12.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-12.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Marcas brasileiras que valem o garimpo"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">29 de março de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-12.html">Marcas brasileiras de moda que valem o garimpo</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Farm, Animale, Osklen e outras. Saiba quais marcas nacionais garimpar em brechós e por que valem a busca.</p>
+              <a href="artigo-12.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-11.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-11.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Guarda-roupa cápsula peças de brechó"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">15 de março de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-11.html">Como montar um guarda-roupa cápsula com peças de brechó</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O guarda-roupa cápsula é a resposta minimalista ao excesso de roupas. Descubra como montar o seu com brechó.</p>
+              <a href="artigo-11.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
           <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-10.html'">
-            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-10.jpg" style="width:100%; height:100%; object-fit:cover;" alt="Imagem do artigo"></div>
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-10.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Dicas para comprar vintage em brechós"></div>
             <div style="padding:24px;">
-                <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-10.html">Dicas essenciais para comprar Vintage em Brechós</a></h3>
-                <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
-                <a href="artigo-10.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler matéria &rarr;</a>
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">18 de janeiro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-10.html">Dicas essenciais para comprar Vintage em brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas vintage de qualidade exige técnica. Saiba como fazer os melhores achados.</p>
+              <a href="artigo-10.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-9.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-9.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Minimalismo autêntico nos brechós"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">4 de janeiro de 2026</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-9.html">A volta do minimalismo autêntico nos brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Entenda por que as peças minimalistas de segunda mão estão mais desejadas do que nunca.</p>
+              <a href="artigo-9.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-8.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-8.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Guia da consignação vender roupas brechó"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">21 de dezembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-8.html">O Guia Prático da Consignação: Como vender roupas em brechó</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O que vale a pena desapegar? Descubra como funciona vender suas roupas usadas em BH.</p>
+              <a href="artigo-8.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-7.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-7.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Tecidos premium garimpo brechó Savassi"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">7 de dezembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-7.html">Como identificar tecidos premium no garimpo em brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Seda, linho, algodão — aprenda a ler a etiqueta e o toque para fazer grandes achados.</p>
+              <a href="artigo-7.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-6.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-6.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Brechó de curadoria diferença moda circular"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">23 de novembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-6.html">Por que brechós de curadoria fazem diferença</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">A curadoria transforma o garimpo em uma experiência de descoberta. Entenda o que diferencia um brechó curado.</p>
+              <a href="artigo-6.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-5.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-5.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Dicas para comprar vintage"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">9 de novembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-5.html">Dicas essenciais para comprar Vintage</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Garimpar roupas antigas e de qualidade exige técnica. Saiba como fazer os melhores negócios.</p>
+              <a href="artigo-5.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-4.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-4.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Minimalismo autêntico brechós segunda mão"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">26 de outubro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-4.html">A volta do minimalismo autêntico nos brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Entenda por que as peças minimalistas de segunda mão estão mais desejadas do que nunca.</p>
+              <a href="artigo-4.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-3.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-3.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Consignação guia vender roupas brechó BH"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">12 de outubro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-3.html">O Guia Prático da Consignação: Como vender roupas em brechó</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">O que vale a pena desapegar? Descubra como funciona vender suas roupas usadas em BH.</p>
+              <a href="artigo-3.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-2.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-2.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Tecidos premium garimpo brechós"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">28 de setembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-2.html">Como identificar tecidos premium no garimpo em brechós</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Seda, linho, algodão — aprenda a olhar a etiqueta e o toque para fazer grandes achados.</p>
+              <a href="artigo-2.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
+            </div>
+          </article>
+
+          <article class="blog-card" style="background:#fff; border:1px solid var(--cor-borda); border-radius:var(--radius); overflow:hidden; transition:transform 0.3s; cursor:pointer;" onclick="window.location.href='artigo-1.html'">
+            <div style="height:220px; background:#f5f5f5;"><img src="../assets/images/blog/blog-1.jpg" loading="lazy" style="width:100%; height:100%; object-fit:cover;" alt="Por que investir em moda circular"></div>
+            <div style="padding:24px;">
+              <p style="font-size:13px; color:#aaa; margin-bottom:8px;">14 de setembro de 2025</p>
+              <h3 style="font-family:var(--fonte-titulo); font-size:22px; margin-bottom:12px; line-height:1.2; color:var(--cor-texto);"><a href="artigo-1.html">Por que investir em moda circular e roupas usadas hoje?</a></h3>
+              <p style="color:var(--cor-texto-leve); font-size:15px; margin-bottom:20px;">Descubra como o consumo consciente em brechós revoluciona o seu estilo e o planeta.</p>
+              <a href="artigo-1.html" style="font-weight:600; font-size:14px; color:var(--cor-destaque);">Ler artigo &rarr;</a>
             </div>
           </article>
 
@@ -135,17 +399,42 @@
       </div>
     </section>
   </main>
-  
-  <footer class="site-footer">
+
+  <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <img src="../assets/images/logo/logo.png" alt="Brechó Outra Vez" width="160" height="54"/>
-        <p>Moda com história na Savassi.</p>
+        <img src="../assets/images/logo/logo.png" alt="Brechó Outra Vez" width="160" height="54" loading="lazy"/>
+        <p>Cada peça tem uma história.</p>
       </div>
       <div class="footer-social">
-        <a href="tel:+553133243383">Ligue para agendar: (31) 3324-3383</a>
+        <a href="https://wa.me/5531933243383">WhatsApp: (31) 3324-3383</a>
       </div>
     </div>
   </footer>
+  <script>
+    // Data de publicação de cada artigo — artigos futuros ficam ocultos até a data
+    const publishDates = {
+      1:'2025-09-14', 2:'2025-09-28', 3:'2025-10-12', 4:'2025-10-26',
+      5:'2025-11-09', 6:'2025-11-23', 7:'2025-12-07', 8:'2025-12-21',
+      9:'2026-01-04', 10:'2026-01-18', 11:'2026-03-15', 12:'2026-03-29',
+      13:'2026-04-12', 14:'2026-04-26', 15:'2026-05-10', 16:'2026-05-24',
+      17:'2026-06-07', 18:'2026-06-21', 19:'2026-07-05', 20:'2026-07-19',
+      21:'2026-08-02', 22:'2026-08-16', 23:'2026-08-30', 24:'2026-09-13',
+      25:'2026-09-27', 26:'2026-10-11', 27:'2026-10-25', 28:'2026-11-08',
+      29:'2026-11-22', 30:'2026-12-06', 31:'2026-12-20', 32:'2027-01-03',
+      33:'2027-01-17', 34:'2027-01-31', 35:'2027-02-14'
+    };
+    const today = new Date();
+    document.querySelectorAll('.blog-card').forEach(card => {
+      const onclick = card.getAttribute('onclick') || '';
+      const m = onclick.match(/artigo-(\d+)\.html/);
+      if (m) {
+        const n = parseInt(m[1]);
+        if (publishDates[n] && new Date(publishDates[n]) > today) {
+          card.style.display = 'none';
+        }
+      }
+    });
+  </script>
 </body>
 </html>
