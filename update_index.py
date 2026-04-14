@@ -22,7 +22,7 @@ with open(html_path, 'r', encoding='utf-8') as f:
 # Replace Header CTA
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="btn-whatsapp-nav"[^>]*>.*?WhatsApp\s*</a>',
-    r'<a href="tel:+5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-right:8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>(31) 8403-2616</a>',
+    r'<a href="https://wa.me/5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-right:8px;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>(31) 8403-2616</a>',
     html, flags=re.DOTALL
 )
 
@@ -30,7 +30,7 @@ html = re.sub(
 html = html.replace('<h1 class="hero-title">Cada peça<br>tem uma <em>história</em>.</h1>', '<h1 class="hero-title">Cada peça<br>tem uma <em>história</em>.</h1>\n        <p style="font-family:var(--fonte-titulo); font-size:22px; margin-top:-10px; margin-bottom:15px; color:var(--cor-destaque);">Desde 2007</p>')
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="btn btn-outline"[^>]*>\s*Falar pelo WhatsApp\s*</a>',
-    '<a href="tel:+5531984032616" class="btn btn-outline">Ligue para nós: 8403-2616</a>',
+    '<a href="https://wa.me/5531984032616" class="btn btn-outline">Ligue para nós: 8403-2616</a>',
     html, flags=re.DOTALL
 )
 
@@ -38,14 +38,14 @@ html = re.sub(
 html = html.replace('<h2 id="sobre-titulo">O brechó feminino de <em>curadoria</em> na Savassi, BH.</h2>', '<h2 id="sobre-titulo">O brechó feminino de <em>curadoria</em> na Savassi, BH. <span style="display:block; font-size:20px; color:var(--cor-destaque); margin-top:8px;">Fazendo história desde 2007</span></h2>')
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="btn btn-secondary"[^>]*>\s*Falar sobre consignação\s*</a>',
-    '<a href="tel:+5531984032616" class="btn btn-secondary">Agendar consignação: 8403-2616</a>',
+    '<a href="https://wa.me/5531984032616" class="btn btn-secondary">Agendar consignação: 8403-2616</a>',
     html, flags=re.DOTALL
 )
 
 # Replace Galeria Texts
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="btn btn-primary"[^>]*>\s*Perguntar no WhatsApp.*?\s*</a>',
-    '<a href="tel:+5531984032616" class="btn btn-primary">Ligue: (31) 8403-2616 &rarr;</a>',
+    '<a href="https://wa.me/5531984032616" class="btn btn-primary">Ligue: (31) 8403-2616 &rarr;</a>',
     html, flags=re.DOTALL
 )
 
@@ -75,7 +75,7 @@ html = html.replace('Não é necessário agendar. Pode vir diretamente', 'Sim, �
 # Consignacao CTA
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="btn btn-primary"[^>]*>\s*Quero consignar.*?</a>',
-    '<a href="tel:+5531984032616" class="btn btn-primary">Agendar avaliação — (31) 8403-2616</a>',
+    '<a href="https://wa.me/5531984032616" class="btn btn-primary">Agendar avaliação — (31) 8403-2616</a>',
     html, flags=re.DOTALL
 )
 
@@ -83,14 +83,14 @@ html = re.sub(
 html = html.replace('WhatsApp: (31) 8403-2616', 'Telefone: (31) 8403-2616')
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616"[^>]*>\s*WhatsApp\s*</a>',
-    '<a href="tel:+5531984032616">Telefone (8403-2616)</a>',
+    '<a href="https://wa.me/5531984032616">Telefone (8403-2616)</a>',
     html, flags=re.DOTALL
 )
 
 # Floating WhatsApp to Floating Phone
 html = re.sub(
     r'<a[^>]*href="https://wa\.me/5531984032616\?text=[^>]*"[^>]*class="whatsapp-float"[^>]*>.*?</a>',
-    '<a href="tel:+5531984032616" class="whatsapp-float" style="background:var(--cor-texto);" aria-label="Ligar para o Brechó Outra Vez"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>',
+    '<a href="https://wa.me/5531984032616" class="whatsapp-float" style="background:var(--cor-texto);" aria-label="Ligar para o Brechó Outra Vez"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>',
     html, flags=re.DOTALL
 )
 

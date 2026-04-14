@@ -111,7 +111,7 @@ html_template = """<!DOCTYPE html>
         <li><a href="../index.html#galeria">Peças</a></li>
         <li><a href="../index.html#consignacao">Consignação</a></li>
         <li><a href="index.html">Reflexões</a></li>
-        <li><a href="tel:+5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);">(31) 8403-2616</a></li>
+        <li><a href="https://wa.me/5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);">(31) 8403-2616</a></li>
       </ul>
     </nav>
   </header>
@@ -127,7 +127,7 @@ html_template = """<!DOCTYPE html>
             
             <div style="border-top: 1px solid var(--cor-borda); margin-top: 60px; padding-top: 40px; text-align: center;">
                 <p style="font-family: var(--fonte-titulo); font-size: 24px; margin-bottom: 20px;">Tem peças incríveis para desapegar ou quer renovar o closet?</p>
-                <a href="tel:+5531984032616" class="btn btn-primary" style="display:inline-block;">Agendar visita: (31) 8403-2616</a>
+                <a href="https://wa.me/5531984032616" class="btn btn-primary" style="display:inline-block;">Agendar visita: (31) 8403-2616</a>
             </div>
         </div>
     </article>
@@ -141,7 +141,7 @@ html_template = """<!DOCTYPE html>
       </div>
       <div class="footer-social" style="display:flex; flex-direction:column; gap:8px;">
         <a href="https://www.instagram.com/boutravez/">Instagram @boutravez</a>
-        <a href="tel:+5531984032616">Ligue para nós: 8403-2616</a>
+        <a href="https://wa.me/5531984032616">Ligue para nós: 8403-2616</a>
       </div>
     </div>
   </footer>
@@ -212,7 +212,7 @@ blog_index_html = """<!DOCTYPE html>
         <li><a href="../index.html#galeria">Peças</a></li>
         <li><a href="../index.html#consignacao">Consignação</a></li>
         <li><a href="index.html">Reflexões</a></li>
-        <li><a href="tel:+5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);">(31) 8403-2616</a></li>
+        <li><a href="https://wa.me/5531984032616" class="btn-whatsapp-nav" style="background:var(--cor-texto);">(31) 8403-2616</a></li>
       </ul>
     </nav>
   </header>
@@ -258,7 +258,7 @@ blog_index_html += """
         <p>Moda com história na Savassi.</p>
       </div>
       <div class="footer-social">
-        <a href="tel:+5531984032616">Ligue para agendar: (31) 8403-2616</a>
+        <a href="https://wa.me/5531984032616">Ligue para agendar: (31) 8403-2616</a>
       </div>
     </div>
   </footer>

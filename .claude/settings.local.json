@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs sed:*)",
+      "Bash(netlify status:*)",
+      "Bash(netlify sites:list)",
+      "Bash(xargs grep:*)",
+      "Bash(curl -s -H \"AccessKey: de7c70e5-a362-424a-82462e9511b1-5b48-41c2\" \"https://api.bunny.net/pullzone\")",
+      "Bash(python3 -c \"import json,sys; zones=json.load\\(sys.stdin\\); [print\\(z.get\\('Id'\\), z.get\\('Name'\\), z.get\\('Hostnames'\\)\\) for z in zones]\")",
+      "Bash(curl -s -H \"AccessKey: f5823409-6707-4f36-a54bcec9cdd7-ae0b-4a31\" \"https://api.bunny.net/pullzone\")",
+      "Bash(gh api:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(d.get\\('homepage',''\\), d.get\\('description',''\\)\\)\")"
+    ]
+  }
+}
