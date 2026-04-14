@@ -24,4 +24,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://boutravez.netlify.app/sitemap.xml
+Sitemap: https://brechooutravez.com.br/sitemap.xml

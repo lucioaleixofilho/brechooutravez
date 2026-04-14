@@ -109,3 +109,19 @@ Na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. No coração do 
 - [Localização](https://brechooutravez.com.br/#localizacao)
 - [Blog de moda](https://brechooutravez.com.br/blog/)
 - [API de produtos](https://brechooutravez.com.br/api/produtos)
+
+## Artigos do Blog
+
+- [Por que investir em moda circular e roupas usadas hoje?](https://brechooutravez.com.br/blog/artigo-1.html)
+- [Como identificar tecidos premium no garimpo em brechós](https://brechooutravez.com.br/blog/artigo-2.html)
+- [O Guia Prático da Consignação: como vender roupas em brechó](https://brechooutravez.com.br/blog/artigo-3.html)
+- [A volta do minimalismo autêntico nos brechós](https://brechooutravez.com.br/blog/artigo-4.html)
+- [Dicas essenciais para comprar Vintage](https://brechooutravez.com.br/blog/artigo-5.html)
+- [Moda sustentável em BH: o cenário de brechós na Savassi](https://brechooutravez.com.br/blog/artigo-6.html)
+- [Presente de Natal sustentável: peças de brechó](https://brechooutravez.com.br/blog/artigo-7.html)
+- [Como definir seu estilo pessoal com peças garimpadas](https://brechooutravez.com.br/blog/artigo-8.html)
+- [Tendências que voltaram: o que garimpar agora](https://brechooutravez.com.br/blog/artigo-9.html)
+- [Dicas essenciais para comprar Vintage em brechós](https://brechooutravez.com.br/blog/artigo-10.html)
+- [Como montar um guarda-roupa cápsula com peças de brechó](https://brechooutravez.com.br/blog/artigo-11.html)
+- [Marcas brasileiras de moda que valem o garimpo](https://brechooutravez.com.br/blog/artigo-12.html)
+- [Como cuidar de roupas de segunda mão para durar mais](https://brechooutravez.com.br/blog/artigo-13.html)
