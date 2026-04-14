@@ -177,12 +177,12 @@ A: Não. Todas as peças do Brechó Outra Vez chegam lavadas e são avaliadas an
 ---
 
 **Q: Qual o horário de funcionamento do Brechó Outra Vez no Savassi?**
-A: O Brechó Outra Vez funciona de segunda a sexta das 10h às 18h e sábado das 10h às 13h. Domingo fechado. Ficamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. WhatsApp: (31) 3324-3383.
+A: O Brechó Outra Vez funciona de segunda a sexta das 10h às 18h e sábado das 10h às 13h. Domingo fechado. Ficamos na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte. WhatsApp: (31) 8403-2616.
 
 ---
 
 **Q: Como comprar no Brechó Outra Vez — aceita cartão e PIX?**
-A: Aceitamos cartão de débito, cartão de crédito e PIX. Para comprar, você pode visitar nossa loja no Savassi (Av. do Contorno, 5690 - Loja B) ou entrar em contato pelo WhatsApp (31) 3324-3383 para verificar disponibilidade de uma peça específica.
+A: Aceitamos cartão de débito, cartão de crédito e PIX. Para comprar, você pode visitar nossa loja no Savassi (Av. do Contorno, 5690 - Loja B) ou entrar em contato pelo WhatsApp (31) 8403-2616 para verificar disponibilidade de uma peça específica.
 
 ---
 
@@ -234,7 +234,7 @@ Sábado: 10h às 13h
 Domingo: fechado
 
 ## Contato
-WhatsApp: (31) 3324-3383
+WhatsApp: (31) 8403-2616
 Instagram: @boutravez
 
 ## Consignação
@@ -420,7 +420,7 @@ bom preço
   "name": "Brechó Outra Vez",
   "description": "Brechó feminino de curadoria no Savassi, Belo Horizonte",
   "url": "https://boutravez.com.br",
-  "telephone": "+55-31-3324-3383",
+  "telephone": "+55-31-8403-2616",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Av. do Contorno, 5690 - Loja B",
@@ -488,4 +488,4 @@ bom preço
 
 *Manual elaborado para o Brechó Outra Vez — @boutravez*
 *Av. do Contorno, 5690 - Loja B, Savassi, BH*
-*WhatsApp: (31) 3324-3383*
+*WhatsApp: (31) 8403-2616*

@@ -338,7 +338,7 @@ O que passa / não passa na seleção de curadoria
 > "Que alegria ler isso! Fico muito feliz que você encontrou uma peça tão especial. Te esperamos em breve com novidades na arara. Bjs, equipe Brechó Outra Vez."
 
 **Template de resposta — review com critica:**
-> "Obrigada por compartilhar. Sua opinião importa muito para a gente melhorar. Me manda um WhatsApp para que a gente possa conversar melhor sobre isso: (31) 3324-3383. Bjs."
+> "Obrigada por compartilhar. Sua opinião importa muito para a gente melhorar. Me manda um WhatsApp para que a gente possa conversar melhor sobre isso: (31) 8403-2616. Bjs."
 
 ---
 
@@ -393,4 +393,4 @@ novidade → FAQ → educativo → novidade → FAQ...
 
 *Manual elaborado para o Brechó Outra Vez — @boutravez*
 *Av. do Contorno, 5690 - Loja B, Savassi, BH*
-*WhatsApp: (31) 3324-3383*
+*WhatsApp: (31) 8403-2616*

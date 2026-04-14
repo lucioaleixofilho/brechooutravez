@@ -512,7 +512,7 @@ Venha descobrir o que tem pra você.
 
 - **Endereço:** Av. do Contorno, 5690 - Loja B, Savassi, BH
 - **Horários:** Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
-- **WhatsApp:** https://wa.me/5531933243383
+- **WhatsApp:** https://wa.me/5531984032616
 - **Instagram:** @boutravez
 - **Facebook:** /boutravez
 - **Preço mínimo:** R$10

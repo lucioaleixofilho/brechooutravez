@@ -112,7 +112,7 @@ BRECHOWEBSITE/
 **Handle:** @boutravez
 **Localização:** Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte MG
 **Horário:** Seg-Sex 10h-18h | Sáb 10h-13h
-**WhatsApp:** (31) 3324-3383
+**WhatsApp:** (31) 8403-2616
 **Serviço:** Brechó feminino de curadoria + consignação
 **Posicionamento:** Acessível com sofisticação + comunidade e afeto
 **Tagline:** "Cada peça tem uma história."

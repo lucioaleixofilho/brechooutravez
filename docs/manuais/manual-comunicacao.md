@@ -152,7 +152,7 @@ Exemplo:
 
 ### GMB — resposta a review neutro/negativo
 
-"Olá, [Nome]. Obrigada pelo feedback — levamos a sério. Gostaríamos muito de entender melhor. Me chama no WhatsApp (31) 3324-3383 e vamos resolver."
+"Olá, [Nome]. Obrigada pelo feedback — levamos a sério. Gostaríamos muito de entender melhor. Me chama no WhatsApp (31) 8403-2616 e vamos resolver."
 
 ---
 

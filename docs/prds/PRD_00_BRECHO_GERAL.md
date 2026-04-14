@@ -64,7 +64,7 @@ e futuramente pelo sistema Minha Lojita.
 - ✅ Netlify Function GET /api/produtos
 
 ## Integrações Externas
-- WhatsApp: wa.me/5531933243383
+- WhatsApp: wa.me/5531984032616
 - Google Maps embed
 - Google Fonts: Playfair Display + Inter
 - Futuro: Minha Lojita API (window.MINHA_LOJITA_API)
@@ -73,7 +73,7 @@ e futuramente pelo sistema Minha Lojita.
 ## Dados do Negócio
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, BH
 - Horários: Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
-- WhatsApp: (31) 3324-3383
+- WhatsApp: (31) 8403-2616
 - Instagram: @boutravez | Facebook: /boutravez
 - Consignação: 50/50 (cliente / brechó)
 - Prazo consignação: 90 dias

@@ -1,14 +1,18 @@
 # Brechó Outra Vez — Instruções Claude Code
 
+## Contexto no vault (segundo cérebro)
+- Status atual: `vault-lucio/Dev/websiteBrecho/status.md`
+- Arquitetura e regras: `vault-lucio/Dev/websiteBrecho/arquitetura.md`
+
 ## Negócio
 Brechó feminino, Savassi BH. Site institucional + vitrine. SEM carrinho/pagamento.
-Clientes contactam via WhatsApp: (31) 3324-3383
+Clientes contactam via WhatsApp: (31) 8403-2616
 
 ## Dados do negócio
 - Instagram: @boutravez | Facebook: /boutravez
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, BH
 - Horários: Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
-- WhatsApp: https://wa.me/5531933243383
+- WhatsApp: https://wa.me/5531984032616
 
 ## Identidade visual
 - Vermelho: #C4161C | Amarelo: #FFD700 | Fundo: #FAF9F7 | Texto: #1A1A1A

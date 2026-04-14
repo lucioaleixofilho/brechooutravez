@@ -105,7 +105,7 @@ e futuramente pelo sistema Minha Lojita.
 - ⏳ Netlify Function GET /api/produtos
 
 ## Integrações Externas
-- WhatsApp: wa.me/5531933243383
+- WhatsApp: wa.me/5531984032616
 - Google Maps embed
 - Google Fonts: Playfair Display + Inter
 - Futuro: Minha Lojita API (window.MINHA_LOJITA_API)
@@ -114,7 +114,7 @@ e futuramente pelo sistema Minha Lojita.
 ## Dados do Negócio
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, BH
 - Horários: Seg-Sex 10h-18h | Sáb 10h-13h | Dom fechado
-- WhatsApp: (31) 3324-3383
+- WhatsApp: (31) 8403-2616
 - Instagram: @boutravez | Facebook: /boutravez
 - Consignação: 50/50 (cliente / brechó)
 - Prazo consignação: 90 dias
@@ -1110,7 +1110,7 @@ Total: 40-60 palavras
 *(38 palavras)*
 
 **Q5: O brechó tem roupas plus size?**
-**Quando chegam peças em tamanhos maiores e com qualidade, elas entram no estoque.** A disponibilidade varia — vale chamar no WhatsApp (31) 3324-3383 para verificar o seu tamanho antes de vir. Sempre buscamos ampliar a diversidade de tamanhos no acervo.
+**Quando chegam peças em tamanhos maiores e com qualidade, elas entram no estoque.** A disponibilidade varia — vale chamar no WhatsApp (31) 8403-2616 para verificar o seu tamanho antes de vir. Sempre buscamos ampliar a diversidade de tamanhos no acervo.
 *(43 palavras)*
 
 **Grupo 2 — Consignação (Persona Camila)**
@@ -1128,11 +1128,11 @@ Total: 40-60 palavras
 *(42 palavras)*
 
 **Q9: Posso retirar minha peça se não vender?**
-**Sim, você pode retirar a peça a qualquer momento.** O prazo padrão de consignação é 90 dias. Após esse período, entre em contato para combinar a retirada ou decidir o que fazer com a peça. Basta nos chamar no WhatsApp (31) 3324-3383.
+**Sim, você pode retirar a peça a qualquer momento.** O prazo padrão de consignação é 90 dias. Após esse período, entre em contato para combinar a retirada ou decidir o que fazer com a peça. Basta nos chamar no WhatsApp (31) 8403-2616.
 *(43 palavras)*
 
 **Q10: O brechó aceita doações de roupas?**
-**Trabalhamos com consignação, não com doações.** Assim, você mantém direito sobre suas peças e recebe 50% do valor quando vendem. Se preferir não retirar peças não vendidas após 90 dias, podemos conversar sobre as opções. Entre em contato pelo WhatsApp (31) 3324-3383.
+**Trabalhamos com consignação, não com doações.** Assim, você mantém direito sobre suas peças e recebe 50% do valor quando vendem. Se preferir não retirar peças não vendidas após 90 dias, podemos conversar sobre as opções. Entre em contato pelo WhatsApp (31) 8403-2616.
 *(44 palavras)*
 
 **Grupo 3 — Sustentabilidade e Higiene**
@@ -1152,7 +1152,7 @@ Total: 40-60 palavras
 *(40 palavras)*
 
 **Q14: Posso ver as peças online antes de ir ao brechó?**
-**Sim — publicamos peças toda semana no Instagram @boutravez.** Você pode também chamar no WhatsApp (31) 3324-3383 para perguntar sobre disponibilidade de categorias ou tamanhos antes de visitar. O catálogo completo está no site com filtros por categoria.
+**Sim — publicamos peças toda semana no Instagram @boutravez.** Você pode também chamar no WhatsApp (31) 8403-2616 para perguntar sobre disponibilidade de categorias ou tamanhos antes de visitar. O catálogo completo está no site com filtros por categoria.
 *(40 palavras)*
 
 **Q15: Quais formas de pagamento o brechó aceita?**
@@ -1166,7 +1166,7 @@ Total: 40-60 palavras
 **Grupo 5 — Produto e Categorias**
 
 **Q17: O brechó vende só roupas ou também bolsas e sapatos?**
-**Trabalhamos com roupas, bolsas, sapatos e acessórios femininos.** Todo o acervo passa por curadoria — só entra o que tem qualidade e bom estado. Você pode filtrar por categoria no nosso site ou perguntar no WhatsApp (31) 3324-3383 pela disponibilidade de um item específico.
+**Trabalhamos com roupas, bolsas, sapatos e acessórios femininos.** Todo o acervo passa por curadoria — só entra o que tem qualidade e bom estado. Você pode filtrar por categoria no nosso site ou perguntar no WhatsApp (31) 8403-2616 pela disponibilidade de um item específico.
 *(45 palavras)*
 
 **Q18: O brechó tem roupas de marca?**
@@ -1178,7 +1178,7 @@ Total: 40-60 palavras
 *(43 palavras)*
 
 **Q20: Como funciona o matching do brechó (ser avisada quando chegar algo)?**
-**Nos conte pelo WhatsApp o que você busca — tamanho, categoria, estilo — e avisamos quando chegar algo.** É um serviço informal e afetivo: quando chega uma peça que parece perfeita para você, mandamos mensagem. Chame no (31) 3324-3383.
+**Nos conte pelo WhatsApp o que você busca — tamanho, categoria, estilo — e avisamos quando chegar algo.** É um serviço informal e afetivo: quando chega uma peça que parece perfeita para você, mandamos mensagem. Chame no (31) 8403-2616.
 *(40 palavras)*
 
 ### Checklist de Publicação AEO
@@ -1406,7 +1406,7 @@ Sitemap: https://boutravez.netlify.app/sitemap.xml
 - Nome: Brechó Outra Vez
 - Handle: @boutravez (Instagram e Facebook)
 - Endereço: Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG
-- WhatsApp: (31) 3324-3383
+- WhatsApp: (31) 8403-2616
 - Horários: Segunda a sexta 10h-18h | Sábado 10h-13h | Domingo fechado
 
 ## Sobre o Brechó
@@ -1466,7 +1466,7 @@ Inserir antes do `</head>`, após os schemas existentes:
       "name": "Onde fica o Brechó Outra Vez no Savassi BH?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h. Domingo fechado. WhatsApp: (31) 3324-3383."
+        "text": "O Brechó Outra Vez fica na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. Funcionamos de segunda a sexta das 10h às 18h e sábados das 10h às 13h. Domingo fechado. WhatsApp: (31) 8403-2616."
       }
     },
     {
@@ -1498,7 +1498,7 @@ Inserir antes do `</head>`, após os schemas existentes:
       "name": "Posso retirar minha peça do brechó se não vender?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim, você pode retirar a peça a qualquer momento. O prazo padrão de consignação é 90 dias. Após esse período, entre em contato para combinar a retirada ou decidir o que fazer com a peça. Basta nos chamar no WhatsApp (31) 3324-3383."
+        "text": "Sim, você pode retirar a peça a qualquer momento. O prazo padrão de consignação é 90 dias. Após esse período, entre em contato para combinar a retirada ou decidir o que fazer com a peça. Basta nos chamar no WhatsApp (31) 8403-2616."
       }
     },
     {
@@ -1522,7 +1522,7 @@ Inserir antes do `</head>`, após os schemas existentes:
       "name": "O brechó vende bolsas, sapatos e acessórios também?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sim, trabalhamos com roupas, bolsas, sapatos e acessórios femininos. Todo o acervo passa por curadoria — só entra o que tem qualidade e bom estado. Você pode filtrar por categoria no site ou perguntar no WhatsApp (31) 3324-3383 pela disponibilidade de um item específico."
+        "text": "Sim, trabalhamos com roupas, bolsas, sapatos e acessórios femininos. Todo o acervo passa por curadoria — só entra o que tem qualidade e bom estado. Você pode filtrar por categoria no site ou perguntar no WhatsApp (31) 8403-2616 pela disponibilidade de um item específico."
       }
     },
     {
@@ -1644,7 +1644,7 @@ Inserir após a seção `#como-funciona` e antes de `#localizacao`:
     <div class="consignacao-cta">
       <p>Pronta para começar? Chama a gente no WhatsApp — a gente responde rápido.</p>
       <a
-        href="https://wa.me/5531933243383?text=Oi%21+Tenho+interesse+em+consignar+algumas+pe%C3%A7as+no+brech%C3%B3.+Pode+me+explicar+como+funciona%3F"
+        href="https://wa.me/5531984032616?text=Oi%21+Tenho+interesse+em+consignar+algumas+pe%C3%A7as+no+brech%C3%B3.+Pode+me+explicar+como+funciona%3F"
         class="btn btn-whatsapp"
         target="_blank"
         rel="noopener noreferrer"
