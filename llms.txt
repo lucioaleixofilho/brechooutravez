@@ -110,6 +110,7 @@ Na Av. do Contorno, 5690 - Loja B, Savassi, Belo Horizonte, MG. No coração do 
 - [Blog de moda](https://brechooutravez.com.br/blog/)
 - [API de produtos](https://brechooutravez.com.br/api/produtos)
 
+
 ## Artigos do Blog
 
 - [Por que investir em moda circular e roupas usadas hoje?](https://brechooutravez.com.br/blog/artigo-1.html)
